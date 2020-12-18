@@ -13,7 +13,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/87/d9/35/87d9350f-f9a5-e76e-a82a-6a871d909679/195081419466.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#d0cadd",
+    "color": "#7b5255",
     "hue": 355.609756097561
   },
   {
@@ -30,7 +30,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/08/8e/69/088e690d-cad3-145b-ab8b-7f7fa69b148d/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#16191a",
+    "color": "#f64f61",
     "hue": 353.5329341317365
   },
   {
@@ -47,7 +47,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/03/3f/79/033f792e-b7af-e3bf-b109-1cf7b2c2b071/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#c0bbba",
+    "color": "#f3dadd",
     "hue": 352.79999999999995
   },
   {
@@ -64,7 +64,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/98/13/9c/98139c34-2a67-ad67-8411-c2e7d1f43dc2/195497659821.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#323c45",
+    "color": "#60363f",
     "hue": 347.1428571428571
   },
   {
@@ -81,25 +81,8 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/ed/9e/0b/ed9e0bb9-048b-76ba-a21e-4412a2689ee6/195497551736.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#e0ccc4",
+    "color": "#d2adb5",
     "hue": 347.02702702702703
-  },
-  {
-    "platform": "applemusicapp",
-    "type": "track",
-    "id": "1532713864",
-    "title": "возьми на себя",
-    "artist": "источник",
-    "album": "POP TRIP",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%BE%D0%B7%D1%8C%D0%BC%D0%B8-%D0%BD%D0%B0-%D1%81%D0%B5%D0%B1%D1%8F/1532713510?app=music&at=11lt62&ct=tracklink",
-    "isrc": "FRX762086800",
-    "duration": "200",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%BE%D0%B7%D1%8C%D0%BC%D0%B8-%D0%BD%D0%B0-%D1%81%D0%B5%D0%B1%D1%8F/1532713510?i=1532713864&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/9a/e6/d3/9ae6d3d9-1dca-cfd4-63e7-77d4547d3ef6/cover.jpg/1000x1000bb.jpeg",
-    "position": "7",
-    "shareUrls": [],
-    "color": "#ae9586",
-    "hue": 330.0000000000001
   },
   {
     "platform": "applemusicapp",
@@ -115,8 +98,25 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f1/d9/61/f1d961c2-05b9-b2b2-cbe4-b9e0eb2a86b9/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#bc5e42",
+    "color": "#302e2f",
     "hue": 329.9999999999999
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1532713864",
+    "title": "возьми на себя",
+    "artist": "источник",
+    "album": "POP TRIP",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%BE%D0%B7%D1%8C%D0%BC%D0%B8-%D0%BD%D0%B0-%D1%81%D0%B5%D0%B1%D1%8F/1532713510?app=music&at=11lt62&ct=tracklink",
+    "isrc": "FRX762086800",
+    "duration": "200",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%BE%D0%B7%D1%8C%D0%BC%D0%B8-%D0%BD%D0%B0-%D1%81%D0%B5%D0%B1%D1%8F/1532713510?i=1532713864&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/9a/e6/d3/9ae6d3d9-1dca-cfd4-63e7-77d4547d3ef6/cover.jpg/1000x1000bb.jpeg",
+    "position": "7",
+    "shareUrls": [],
+    "color": "#bfb7bc",
+    "hue": 322.49999999999994
   },
   {
     "platform": "applemusicapp",
@@ -132,7 +132,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/fc/ff/86/fcff8641-e47c-0123-6775-9edf6563c4c9/859736443076_cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#d07872",
+    "color": "#332b33",
     "hue": 300
   },
   {
@@ -149,7 +149,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/b7/fe/22/b7fe2222-2b66-0c82-0dae-43279ea93976/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#534f4a",
+    "color": "#beb2c8",
     "hue": 272.72727272727275
   },
   {
@@ -166,7 +166,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/43/6a/79/436a794f-d459-3925-201f-0e6c70fccc02/195081817576.jpg/1000x1000bb.jpeg",
     "position": "3",
     "shareUrls": [],
-    "color": "#dde1ef",
+    "color": "#6821e1",
     "hue": 262.1875
   },
   {
@@ -183,7 +183,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/f9/d3/dc/f9d3dcd5-aee1-63c0-f1a5-e32fdcb8e21e/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#3f4424",
+    "color": "#d0cadd",
     "hue": 258.94736842105266
   },
   {
@@ -200,7 +200,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/ea/ef/94/eaef9442-2881-73ee-a30f-03ba2398ab71/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#727596",
+    "color": "#0c0a11",
     "hue": 257.14285714285717
   },
   {
@@ -217,7 +217,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/40/fe/d5/40fed56a-98dd-7f5d-fcf9-c41880033b76/195497322237.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#93b4d8",
+    "color": "#1c0f8f",
     "hue": 246.09375
   },
   {
@@ -234,7 +234,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/f5/67/9e/f5679eeb-2bdf-cb60-500d-e33363736b27/195497750887.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#dddede",
+    "color": "#4c4c50",
     "hue": 240
   },
   {
@@ -251,7 +251,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/26/ea/52/26ea52e4-6e5a-6bb3-a042-8d6f1c7d65e4/cover.jpg/1000x1000bb.jpeg",
     "position": "4",
     "shareUrls": [],
-    "color": "#040404",
+    "color": "#727596",
     "hue": 235.00000000000003
   },
   {
@@ -268,7 +268,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/61/1d/09/611d0919-6d31-5c83-4ce4-fa0577456bf6/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#edbd35",
+    "color": "#3c4171",
     "hue": 234.33962264150944
   },
   {
@@ -285,7 +285,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/4e/71/e1/4e71e1ec-bfd2-77de-c094-2a44ed81c1fe/195497634927.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#c98862",
+    "color": "#232c70",
     "hue": 232.987012987013
   },
   {
@@ -302,7 +302,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/58/8e/a4/588ea43d-0f9f-1fce-844d-79f2b2421065/190295183929.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#4c4c50",
+    "color": "#4a4d60",
     "hue": 231.81818181818184
   },
   {
@@ -319,7 +319,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/11/df/61/11df61e7-d83f-0863-6820-cf78ecc2dd21/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#b9aba8",
+    "color": "#dde1ef",
     "hue": 226.6666666666667
   },
   {
@@ -336,25 +336,8 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/d4/72/0d/d4720d2c-f518-7114-ba95-6dc5047e0831/195497318452.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#673a2d",
+    "color": "#050609",
     "hue": 225
-  },
-  {
-    "platform": "applemusicapp",
-    "type": "track",
-    "id": "1527293307",
-    "title": "Розовые очки",
-    "artist": "Витя Исаев",
-    "album": "привет!как дела?",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%87%D0%BA%D0%B8/1527293060?app=music&at=11lt62&ct=tracklink",
-    "isrc": "RUA742022901",
-    "duration": "180",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%87%D0%BA%D0%B8/1527293060?i=1527293307&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/77/06/6e/77066ec8-cfaf-23a6-f223-6b610b6cb59b/195497036912.jpg/1000x1000bb.jpeg",
-    "position": "1",
-    "shareUrls": [],
-    "color": "#332b33",
-    "hue": 223.63636363636363
   },
   {
     "platform": "applemusicapp",
@@ -370,7 +353,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/c4/5b/70/c45b704c-5dcb-4498-7a2b-979e23740a2a/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#2f3a35",
+    "color": "#3f4c6a",
     "hue": 221.86046511627907
   },
   {
@@ -387,7 +370,24 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/ac/da/5d/acda5d43-0d9a-a7a0-df20-e053489d9856/cover.jpg/1000x1000bb.jpeg",
     "position": "3",
     "shareUrls": [],
-    "color": "#56534b",
+    "color": "#435f9b",
+    "hue": 220.9090909090909
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1527293307",
+    "title": "Розовые очки",
+    "artist": "Витя Исаев",
+    "album": "привет!как дела?",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%87%D0%BA%D0%B8/1527293060?app=music&at=11lt62&ct=tracklink",
+    "isrc": "RUA742022901",
+    "duration": "180",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%87%D0%BA%D0%B8/1527293060?i=1527293307&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/77/06/6e/77066ec8-cfaf-23a6-f223-6b610b6cb59b/195497036912.jpg/1000x1000bb.jpeg",
+    "position": "1",
+    "shareUrls": [],
+    "color": "#4d5463",
     "hue": 220.9090909090909
   },
   {
@@ -404,7 +404,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/df/df/49/dfdf4935-fc42-22af-8bc8-1e54225352ed/cover.jpg/1000x1000bb.jpeg",
     "position": "6",
     "shareUrls": [],
-    "color": "#723f36",
+    "color": "#8ea2cc",
     "hue": 220.6451612903226
   },
   {
@@ -421,7 +421,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/2b/36/89/2b368942-b506-3e12-a0b8-d4d404f9414e/0.jpg/1000x1000bb.jpeg",
     "position": "2",
     "shareUrls": [],
-    "color": "#3e3e3e",
+    "color": "#8ba6d7",
     "hue": 218.68421052631578
   },
   {
@@ -438,7 +438,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/f9/fa/ddf9fa32-811b-d5b5-f9ee-348087550287/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#1c2125",
+    "color": "#939aa4",
     "hue": 215.29411764705884
   },
   {
@@ -455,7 +455,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/99/c7/46/99c7467f-ca98-985b-a99c-10021ab54f2f/195497561377.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#2a5873",
+    "color": "#a4aebb",
     "hue": 213.91304347826087
   },
   {
@@ -472,7 +472,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/0e/67/60/0e6760df-921c-7b1b-8f29-6ded5cda9d77/190295198190.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#979125",
+    "color": "#142438",
     "hue": 213.33333333333334
   },
   {
@@ -489,7 +489,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ef/b7/82/efb7823b-3485-76ac-0720-4e7df8373374/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#435f9b",
+    "color": "#93b4d8",
     "hue": 211.30434782608694
   },
   {
@@ -506,7 +506,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cb/db/bb/cbdbbbde-5c51-62a3-fa99-15abbb3926fa/cover.jpg/1000x1000bb.jpeg",
     "position": "7",
     "shareUrls": [],
-    "color": "#524530",
+    "color": "#0b1117",
     "hue": 210
   },
   {
@@ -523,7 +523,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/4c/94/6f/4c946f65-5682-6b14-a030-0c580eff25c2/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#1c1c1a",
+    "color": "#323c45",
     "hue": 208.42105263157893
   },
   {
@@ -540,7 +540,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/91/49/6e/91496e70-295f-f7ac-1a85-46c3aa536b77/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#c6d2d8",
+    "color": "#c5cdd4",
     "hue": 208
   },
   {
@@ -557,7 +557,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/5b/26/0e/5b260e38-fa0b-0853-6a16-823beaaf44eb/195497480500.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#172325",
+    "color": "#070e14",
     "hue": 207.69230769230768
   },
   {
@@ -574,7 +574,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/f4/eb/ee/f4ebee21-c7ab-bd22-5a60-b16d278440ec/195081552262.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#0f1211",
+    "color": "#a4b6c5",
     "hue": 207.27272727272728
   },
   {
@@ -591,7 +591,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/d1/ea/cf/d1eacf63-fb6b-b7b9-1452-2b7ab654a12f/195081562247.jpg/1000x1000bb.jpeg",
     "position": "2",
     "shareUrls": [],
-    "color": "#bfb7bb",
+    "color": "#1c2125",
     "hue": 206.66666666666666
   },
   {
@@ -608,7 +608,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/94/ad/8f/94ad8f31-ff70-c125-f54c-d4c2542b8bdb/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#a94721",
+    "color": "#0f181f",
     "hue": 206.25
   },
   {
@@ -625,7 +625,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/29/ae/6a/29ae6a89-f67d-7b02-5bfd-7b3c04794f81/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#080605",
+    "color": "#2a5873",
     "hue": 202.1917808219178
   },
   {
@@ -642,7 +642,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/f4/e8/70/f4e87036-dd47-dfaa-aabf-c2ee39bae694/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#312f2e",
+    "color": "#c6d2d8",
     "hue": 200.00000000000003
   },
   {
@@ -659,7 +659,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/31/d2/52/31d252e4-d197-e524-91b8-7a7d47b1488d/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#ce7462",
+    "color": "#0f3344",
     "hue": 199.24528301886792
   },
   {
@@ -676,7 +676,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/67/3f/19/673f1926-d74a-c102-072c-b2a0c8da098a/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#1c0f8f",
+    "color": "#6492a7",
     "hue": 198.80597014925374
   },
   {
@@ -693,7 +693,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/31/9b/6b319b56-a73b-05a5-d81d-46adea045158/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#e6e0d1",
+    "color": "#538499",
     "hue": 198
   },
   {
@@ -710,7 +710,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/40/8e/db/408edb12-368a-7b65-12b0-39eecfefd8e5/0.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#232c70",
+    "color": "#16191a",
     "hue": 195
   },
   {
@@ -727,7 +727,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/97/de/58/97de58ff-4a0b-e609-ae41-a49b070593b7/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#0c0a11",
+    "color": "#172325",
     "hue": 188.57142857142856
   },
   {
@@ -744,7 +744,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/ce/19/d9/ce19d932-19d6-ba39-1d37-8ae8e9131b20/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#f9e6d1",
+    "color": "#08474e",
     "hue": 186
   },
   {
@@ -761,7 +761,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/2c/6e/f5/2c6ef59b-40aa-eb08-b76d-fb198d8bb024/195081370491.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#503521",
+    "color": "#dddede",
     "hue": 180
   },
   {
@@ -778,7 +778,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/56/6d/3a/566d3a60-8692-8b67-deb2-026f7dbaecd5/20UMGIM98931.rgb.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#beb2c8",
+    "color": "#0f1211",
     "hue": 160
   },
   {
@@ -795,7 +795,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/80/22/25/8022250b-cd17-db41-9133-601c02069604/886448513292.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#6492a7",
+    "color": "#2f3a35",
     "hue": 152.72727272727275
   },
   {
@@ -812,25 +812,8 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/bd/81/f8/bd81f8bd-8863-ce53-47bb-69ab3af709b6/190295158309.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#a6a2a1",
+    "color": "#bad5c2",
     "hue": 137.77777777777777
-  },
-  {
-    "platform": "applemusicapp",
-    "type": "track",
-    "id": "1515181084",
-    "title": "Последняя песня",
-    "artist": "VASYA & Daniel Shake",
-    "album": "Последняя песня - Single",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F-%D0%BF%D0%B5%D1%81%D0%BD%D1%8F/1515181077?app=music&at=11lt62&ct=tracklink",
-    "isrc": "FR96X2011602",
-    "duration": "234",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F-%D0%BF%D0%B5%D1%81%D0%BD%D1%8F/1515181077?i=1515181084&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/cc/29/28/cc292801-d98d-be15-33ce-29eccfe7f246/cover.jpg/1000x1000bb.jpeg",
-    "position": "1",
-    "shareUrls": [],
-    "color": "#140c0c",
-    "hue": 120
   },
   {
     "platform": "applemusicapp",
@@ -846,7 +829,24 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/d5/3d/fdd53d7b-95f8-d5b4-2158-86f9ccdf7454/195497323722.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#8ea2cc",
+    "color": "#060706",
+    "hue": 120
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1515181084",
+    "title": "Последняя песня",
+    "artist": "VASYA & Daniel Shake",
+    "album": "Последняя песня - Single",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F-%D0%BF%D0%B5%D1%81%D0%BD%D1%8F/1515181077?app=music&at=11lt62&ct=tracklink",
+    "isrc": "FR96X2011602",
+    "duration": "234",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F-%D0%BF%D0%B5%D1%81%D0%BD%D1%8F/1515181077?i=1515181084&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/cc/29/28/cc292801-d98d-be15-33ce-29eccfe7f246/cover.jpg/1000x1000bb.jpeg",
+    "position": "1",
+    "shareUrls": [],
+    "color": "#1e261e",
     "hue": 120
   },
   {
@@ -863,8 +863,8 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/9f/82/b6/9f82b6e9-8f45-eb70-1db0-8b3a9a0da5c1/195497209644.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#c5cdd4",
-    "hue": 94.28571428571439
+    "color": "#e1e6de",
+    "hue": 97.50000000000009
   },
   {
     "platform": "applemusicapp",
@@ -880,41 +880,24 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/32/49/4e3249a0-37aa-523e-d658-4e27bf0e45d7/cover.jpg/1000x1000bb.jpeg",
     "position": "5",
     "shareUrls": [],
-    "color": "#836148",
+    "color": "#3f4424",
     "hue": 69.375
   },
   {
     "platform": "applemusicapp",
     "type": "track",
-    "id": "1515662359",
-    "title": "Вельзевул",
-    "artist": "Убей меня, Эйс!",
-    "album": "МЫ-Тоска",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D0%BB%D1%8C%D0%B7%D0%B5%D0%B2%D1%83%D0%BB/1515661973?app=music&at=11lt62&ct=tracklink",
-    "isrc": "QM6N22052527",
-    "duration": "168",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D0%BB%D1%8C%D0%B7%D0%B5%D0%B2%D1%83%D0%BB/1515661973?i=1515662359&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/fa/14/77/fa14774f-5e8b-cf87-b3b6-b363d715473b/195081651347.jpg/1000x1000bb.jpeg",
-    "position": "7",
+    "id": "1499522244",
+    "title": "Plans",
+    "artist": "Kate NV",
+    "album": "Room for the Moon",
+    "albumLink": "https://geo.music.apple.com/ru/album/plans/1499522230?app=music&at=11lt62&ct=tracklink",
+    "isrc": "US6PQ2000031",
+    "duration": "338",
+    "trackLink": "https://geo.music.apple.com/ru/album/plans/1499522230?i=1499522244&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/de/d2/b8/ded2b813-483c-e829-f2ea-8bd1280e2df3/747742383137.png/1000x1000bb.jpeg",
+    "position": "8",
     "shareUrls": [],
-    "color": "#f7f7ed",
-    "hue": 60
-  },
-  {
-    "platform": "applemusicapp",
-    "type": "track",
-    "id": "1510344206",
-    "title": "INT. HOTEL ROOM — SUNRISE",
-    "artist": "Интурист",
-    "album": "Action!",
-    "albumLink": "https://geo.music.apple.com/ru/album/int-hotel-room-sunrise/1510343999?app=music&at=11lt62&ct=tracklink",
-    "isrc": "QM6MZ2076859",
-    "duration": "201",
-    "trackLink": "https://geo.music.apple.com/ru/album/int-hotel-room-sunrise/1510343999?i=1510344206&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f2/f3/86/f2f386f3-2573-388f-48d8-38a4f2658ce2/195081487656.jpg/1000x1000bb.jpeg",
-    "position": "1",
-    "shareUrls": [],
-    "color": "#363635",
+    "color": "#fbfbf3",
     "hue": 60
   },
   {
@@ -931,24 +914,41 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/52/63/33/52633352-5cfc-a7af-909f-382a9e611fa3/195497397815.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#a4aebb",
+    "color": "#363635",
     "hue": 60
   },
   {
     "platform": "applemusicapp",
     "type": "track",
-    "id": "1499522244",
-    "title": "Plans",
-    "artist": "Kate NV",
-    "album": "Room for the Moon",
-    "albumLink": "https://geo.music.apple.com/ru/album/plans/1499522230?app=music&at=11lt62&ct=tracklink",
-    "isrc": "US6PQ2000031",
-    "duration": "338",
-    "trackLink": "https://geo.music.apple.com/ru/album/plans/1499522230?i=1499522244&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/de/d2/b8/ded2b813-483c-e829-f2ea-8bd1280e2df3/747742383137.png/1000x1000bb.jpeg",
-    "position": "8",
+    "id": "1510344206",
+    "title": "INT. HOTEL ROOM — SUNRISE",
+    "artist": "Интурист",
+    "album": "Action!",
+    "albumLink": "https://geo.music.apple.com/ru/album/int-hotel-room-sunrise/1510343999?app=music&at=11lt62&ct=tracklink",
+    "isrc": "QM6MZ2076859",
+    "duration": "201",
+    "trackLink": "https://geo.music.apple.com/ru/album/int-hotel-room-sunrise/1510343999?i=1510344206&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f2/f3/86/f2f386f3-2573-388f-48d8-38a4f2658ce2/195081487656.jpg/1000x1000bb.jpeg",
+    "position": "1",
     "shareUrls": [],
-    "color": "#cda09e",
+    "color": "#f7f7ed",
+    "hue": 60
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1515662359",
+    "title": "Вельзевул",
+    "artist": "Убей меня, Эйс!",
+    "album": "МЫ-Тоска",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D0%BB%D1%8C%D0%B7%D0%B5%D0%B2%D1%83%D0%BB/1515661973?app=music&at=11lt62&ct=tracklink",
+    "isrc": "QM6N22052527",
+    "duration": "168",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D0%BB%D1%8C%D0%B7%D0%B5%D0%B2%D1%83%D0%BB/1515661973?i=1515662359&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/fa/14/77/fa14774f-5e8b-cf87-b3b6-b363d715473b/195081651347.jpg/1000x1000bb.jpeg",
+    "position": "7",
+    "shareUrls": [],
+    "color": "#1c1c1a",
     "hue": 60
   },
   {
@@ -965,7 +965,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/e0/00/d9/e000d955-7462-83ac-0120-a61ffe549021/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#0b1117",
+    "color": "#979125",
     "hue": 56.84210526315789
   },
   {
@@ -982,7 +982,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/15/e5/30/15e53091-8a15-a88e-30fb-d24aa54abd6c/190295091569.jpg/1000x1000bb.jpeg",
     "position": "5",
     "shareUrls": [],
-    "color": "#c58c61",
+    "color": "#d8d7cc",
     "hue": 55.000000000000014
   },
   {
@@ -999,7 +999,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/6a/5e/d3/6a5ed358-6813-1d90-4a46-10a1aa7d40f0/190295289195.jpg/1000x1000bb.jpeg",
     "position": "7",
     "shareUrls": [],
-    "color": "#f64f61",
+    "color": "#c2c0b1",
     "hue": 52.94117647058826
   },
   {
@@ -1016,7 +1016,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/d2/18/73/d2187385-5ae9-d5a8-5eb5-37adb785f85d/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#d2adb5",
+    "color": "#edbd35",
     "hue": 44.347826086956516
   },
   {
@@ -1033,7 +1033,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/6e/f1/da/6ef1da0e-01eb-cc1e-351d-aafe30920bad/195081018164.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#e4c9b3",
+    "color": "#56534b",
     "hue": 43.636363636363626
   },
   {
@@ -1050,7 +1050,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ad/64/19/ad6419dd-b8ba-effa-3e8b-6036a6f06829/195497554478.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#0f3344",
+    "color": "#978e77",
     "hue": 43.12500000000001
   },
   {
@@ -1067,7 +1067,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/6d/1c/14/6d1c148c-f3e4-44a8-4e2f-646968de3ee0/195497660599.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#142438",
+    "color": "#e6e0d1",
     "hue": 42.85714285714285
   },
   {
@@ -1084,7 +1084,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/42/be/a1/42bea115-290a-1311-b472-0265d26876ba/195497061228.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#462317",
+    "color": "#524530",
     "hue": 37.058823529411754
   },
   {
@@ -1101,7 +1101,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/8b/ea/81/8bea81a2-1ff6-49ba-e6fb-13bb12d6399f/195081059839.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#272320",
+    "color": "#91836e",
     "hue": 35.99999999999998
   },
   {
@@ -1118,7 +1118,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/1e/13/4b/1e134bf9-0caa-d255-0dea-60e18ec6f899/cover.jpg/1000x1000bb.jpeg",
     "position": "5",
     "shareUrls": [],
-    "color": "#bad5c2",
+    "color": "#534f4a",
     "hue": 33.33333333333332
   },
   {
@@ -1135,7 +1135,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/91/8d/a6/918da654-7373-76a9-a37a-ab25db9df90d/0.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#d8d7cc",
+    "color": "#f9e6d1",
     "hue": 31.500000000000014
   },
   {
@@ -1152,7 +1152,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/b8/2b/b3/b82bb384-580c-8f7d-9baf-d82cef6d73d0/190295290191.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#ce8c61",
+    "color": "#b2ada8",
     "hue": 30.000000000000085
   },
   {
@@ -1169,7 +1169,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/74/05/08/740508e8-facd-83da-f08f-c8d2ebd2ddef/0.jpg/1000x1000bb.jpeg",
     "position": "5",
     "shareUrls": [],
-    "color": "#302e2f",
+    "color": "#e4c9b3",
     "hue": 26.938775510204078
   },
   {
@@ -1186,7 +1186,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7b/4e/d3/7b4ed3f1-e7a2-8800-532f-7adcaefc16f0/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#050609",
+    "color": "#c58c61",
     "hue": 25.800000000000008
   },
   {
@@ -1203,7 +1203,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/40/94/02/409402e8-ed07-5786-2896-c46a92878bcd/195497751044.jpg/1000x1000bb.jpeg",
     "position": "5",
     "shareUrls": [],
-    "color": "#070e14",
+    "color": "#272320",
     "hue": 25.714285714285733
   },
   {
@@ -1220,7 +1220,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/e7/8f/20/e78f20ef-b920-d252-5437-1ee7332140f1/195497161096.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#0b0908",
+    "color": "#503521",
     "hue": 25.531914893617024
   },
   {
@@ -1237,7 +1237,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/e3/a7/70/e3a7707d-b832-9b09-5780-8abb2660dd9f/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#8ba6d7",
+    "color": "#836148",
     "hue": 25.423728813559325
   },
   {
@@ -1254,8 +1254,25 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/d2/b3/e8/d2b3e866-d098-e583-b21b-47585efa015b/20UMGIM64332.rgb.jpg/1000x1000bb.jpeg",
     "position": "14",
     "shareUrls": [],
-    "color": "#6821e1",
+    "color": "#eaa97d",
     "hue": 24.220183486238533
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1507787327",
+    "title": "Кровавая чаша",
+    "artist": "РИТУАЛЬНЫЕ УСЛУГИ",
+    "album": "Красное не только об одном",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%B0%D1%8F-%D1%87%D0%B0%D1%88%D0%B0/1507787326?app=music&at=11lt62&ct=tracklink",
+    "isrc": "RUA1D2013169",
+    "duration": "232",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%B0%D1%8F-%D1%87%D0%B0%D1%88%D0%B0/1507787326?i=1507787327&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/ce/85/e4/ce85e4c0-03cc-1f63-c689-3685ef2728b3/cover.jpg/1000x1000bb.jpeg",
+    "position": "1",
+    "shareUrls": [],
+    "color": "#1e1b19",
+    "hue": 24
   },
   {
     "platform": "applemusicapp",
@@ -1271,7 +1288,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/61/c7/4b/61c74bea-8f2d-4b1c-3889-cc483a84d013/cover.jpg/1000x1000bb.jpeg",
     "position": "3",
     "shareUrls": [],
-    "color": "#eaa97d",
+    "color": "#ce8c61",
     "hue": 23.66972477064221
   },
   {
@@ -1288,7 +1305,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/c0/41/9b/c0419b28-d7fa-523c-54d2-8f526c065194/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#a4b6c5",
+    "color": "#ae9586",
     "hue": 22.500000000000007
   },
   {
@@ -1305,7 +1322,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/2d/57/a4/2d57a4f9-72e9-6ead-acce-512fc729d95a/20UMGIM19942.rgb.jpg/1000x1000bb.jpeg",
     "position": "4",
     "shareUrls": [],
-    "color": "#7b5255",
+    "color": "#c98862",
     "hue": 22.135922330097085
   },
   {
@@ -1322,25 +1339,8 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/7d/23/98/7d23989a-9372-3df2-14bb-62feb9706987/195497313198.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#978e77",
+    "color": "#312f2e",
     "hue": 20.000000000000046
-  },
-  {
-    "platform": "applemusicapp",
-    "type": "track",
-    "id": "1536644132",
-    "title": "Holodnoe Solnce",
-    "artist": "Love Object",
-    "album": "Holodnoe Solnce - Single",
-    "albumLink": "https://geo.music.apple.com/ru/album/holodnoe-solnce/1536644117?app=music&at=11lt62&ct=tracklink",
-    "isrc": "QZAKB2007293",
-    "duration": "235",
-    "trackLink": "https://geo.music.apple.com/ru/album/holodnoe-solnce/1536644117?i=1536644132&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/7d/87/9b/7d879bde-52df-7669-586a-dd5a6410d1ce/142.jpg/1000x1000bb.jpeg",
-    "position": "1",
-    "shareUrls": [],
-    "color": "#08474e",
-    "hue": 20
   },
   {
     "platform": "applemusicapp",
@@ -1356,24 +1356,24 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/53/ff/81/53ff81f0-b6ab-79b5-f804-d0ee333fc6da/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#3c4171",
+    "color": "#0b0908",
     "hue": 20
   },
   {
     "platform": "applemusicapp",
     "type": "track",
-    "id": "1507787327",
-    "title": "Кровавая чаша",
-    "artist": "РИТУАЛЬНЫЕ УСЛУГИ",
-    "album": "Красное не только об одном",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%B0%D1%8F-%D1%87%D0%B0%D1%88%D0%B0/1507787326?app=music&at=11lt62&ct=tracklink",
-    "isrc": "RUA1D2013169",
-    "duration": "232",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%B0%D1%8F-%D1%87%D0%B0%D1%88%D0%B0/1507787326?i=1507787327&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/ce/85/e4/ce85e4c0-03cc-1f63-c689-3685ef2728b3/cover.jpg/1000x1000bb.jpeg",
+    "id": "1536644132",
+    "title": "Holodnoe Solnce",
+    "artist": "Love Object",
+    "album": "Holodnoe Solnce - Single",
+    "albumLink": "https://geo.music.apple.com/ru/album/holodnoe-solnce/1536644117?app=music&at=11lt62&ct=tracklink",
+    "isrc": "QZAKB2007293",
+    "duration": "235",
+    "trackLink": "https://geo.music.apple.com/ru/album/holodnoe-solnce/1536644117?i=1536644132&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/7d/87/9b/7d879bde-52df-7669-586a-dd5a6410d1ce/142.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#0f181f",
+    "color": "#080605",
     "hue": 20
   },
   {
@@ -1390,7 +1390,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/be/98/b5/be98b517-5298-a994-66bb-8538aac32bb9/20UMGIM76163.rgb.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#c2c0b1",
+    "color": "#e0ccc4",
     "hue": 17.142857142857153
   },
   {
@@ -1407,7 +1407,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/8b/37/84/8b3784d1-86c5-74cd-2c7f-e79372202f59/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#1e261e",
+    "color": "#a94721",
     "hue": 16.764705882352942
   },
   {
@@ -1424,7 +1424,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/d9/7d/9c/d97d9c4c-5b57-24b9-6b7d-49d83094738b/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#b2ada8",
+    "color": "#462317",
     "hue": 15.319148936170215
   },
   {
@@ -1441,7 +1441,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/0b/56/f6/0b56f68c-9e83-61c9-ec5d-6d7457de8a60/0.jpg/1000x1000bb.jpeg",
     "position": "2",
     "shareUrls": [],
-    "color": "#f3dadd",
+    "color": "#bc5e42",
     "hue": 13.770491803278688
   },
   {
@@ -1458,7 +1458,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/ed/a5/ec/eda5ec56-1461-8144-fcd0-155f2ebc8842/0.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#973026",
+    "color": "#673a2d",
     "hue": 13.448275862068963
   },
   {
@@ -1475,7 +1475,7 @@
     "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/e4/13/7c/e4137cad-de3a-f113-31ac-4bdca68d4055/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#4a4d60",
+    "color": "#a6a2a1",
     "hue": 11.999999999999932
   },
   {
@@ -1492,7 +1492,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/58/4e/63/584e639e-8a47-547f-bb4b-06f0f84128fa/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#c3452f",
+    "color": "#b9aba8",
     "hue": 10.588235294117611
   },
   {
@@ -1509,7 +1509,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/52/0c/60/520c60f3-d2f2-146a-2e4b-a11613c90cf0/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#939aa4",
+    "color": "#ce7462",
     "hue": 9.999999999999996
   },
   {
@@ -1526,7 +1526,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/50/48/78/504878b8-92ea-1b1b-de6b-abfc9b46ec55/195497255269.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#60363f",
+    "color": "#c0bbba",
     "hue": 9.999999999999952
   },
   {
@@ -1543,7 +1543,7 @@
     "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/06/cb/9d/06cb9d21-d758-d08f-66eb-9d20d13fbdf4/194491844769.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#181818",
+    "color": "#723f36",
     "hue": 9.000000000000004
   },
   {
@@ -1560,7 +1560,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d0/6a/70/d06a7065-8552-79db-bbd0-588716efcbc2/195081355122.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#060706",
+    "color": "#c3452f",
     "hue": 8.918918918918916
   },
   {
@@ -1577,7 +1577,7 @@
     "picture": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/5f/0a/e1/5f0ae12a-75bf-bcb1-525a-f37ae6a8a410/194491994563.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#a48e8d",
+    "color": "#973026",
     "hue": 5.3097345132743365
   },
   {
@@ -1594,7 +1594,7 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/b6/db/35/b6db3530-4d84-17e1-7992-d7cc72fb6ead/cover.jpg/1000x1000bb.jpeg",
     "position": "13",
     "shareUrls": [],
-    "color": "#91836e",
+    "color": "#d07872",
     "hue": 3.8297872340425485
   },
   {
@@ -1611,7 +1611,7 @@
     "picture": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/1b/5d/63/1b5d6320-84eb-a27c-9c26-918fbf471bed/190295289539.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#3f4c6a",
+    "color": "#a48e8d",
     "hue": 2.6086956521739033
   },
   {
@@ -1628,41 +1628,24 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/cd/03/f8/cd03f89f-4498-643d-7a28-7b6acd4abd31/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#1e1b19",
+    "color": "#cda09e",
     "hue": 2.553191489361693
   },
   {
     "platform": "applemusicapp",
     "type": "track",
-    "id": "1507323322",
-    "title": "Весело и грустно (feat. Хаски)",
-    "artist": "IC3PEAK",
-    "album": "До Cвидания",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D0%BE-%D0%B8-%D0%B3%D1%80%D1%83%D1%81%D1%82%D0%BD%D0%BE-feat-%D1%85%D0%B0%D1%81%D0%BA%D0%B8/1507322505?app=music&at=11lt62&ct=tracklink",
-    "isrc": "QM6MZ2019113",
-    "duration": "195",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D0%BE-%D0%B8-%D0%B3%D1%80%D1%83%D1%81%D1%82%D0%BD%D0%BE-feat-%D1%85%D0%B0%D1%81%D0%BA%D0%B8/1507322505?i=1507323322&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/c3/28/74/c328747d-32f7-67f6-4f66-d155c169f87e/195081156378.jpg/1000x1000bb.jpeg",
-    "position": "11",
-    "shareUrls": [],
-    "color": "#538499",
-    "hue": 0
-  },
-  {
-    "platform": "applemusicapp",
-    "type": "track",
-    "id": "1504072014",
-    "title": "Всё, что ненавидел",
-    "artist": "Гуляй Рванина",
-    "album": "Дар речи",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D1%81%D1%91-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5%D0%BD%D0%B0%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB/1504072010?app=music&at=11lt62&ct=tracklink",
-    "isrc": "FRX452042246",
-    "duration": "157",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D1%81%D1%91-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5%D0%BD%D0%B0%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB/1504072010?i=1504072014&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/15/5c/1c/155c1c57-5c8d-e0a2-758f-b8d241898188/cover.jpg/1000x1000bb.jpeg",
+    "id": "1542605352",
+    "title": "сhentanni!",
+    "artist": "масло черного тмина",
+    "album": "Harith - EP",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D1%81hentanni/1542605350?app=music&at=11lt62&ct=tracklink",
+    "isrc": "QMFME2082250",
+    "duration": "190",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D1%81hentanni/1542605350?i=1542605352&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/57/1e/ff/571effc8-ed9c-c703-7112-366ceabacb74/195497746774.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#e1e6de",
+    "color": "#181818",
     "hue": 0
   },
   {
@@ -1679,24 +1662,41 @@
     "picture": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/30/67/32/306732d0-7bb1-1213-deca-a3aee3198db8/cover.jpg/1000x1000bb.jpeg",
     "position": "4",
     "shareUrls": [],
-    "color": "#4d5463",
+    "color": "#140c0c",
     "hue": 0
   },
   {
     "platform": "applemusicapp",
     "type": "track",
-    "id": "1542605352",
-    "title": "сhentanni!",
-    "artist": "масло черного тмина",
-    "album": "Harith - EP",
-    "albumLink": "https://geo.music.apple.com/ru/album/%D1%81hentanni/1542605350?app=music&at=11lt62&ct=tracklink",
-    "isrc": "QMFME2082250",
-    "duration": "190",
-    "trackLink": "https://geo.music.apple.com/ru/album/%D1%81hentanni/1542605350?i=1542605352&app=music&at=11lt62&ct=tracklink",
-    "picture": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/57/1e/ff/571effc8-ed9c-c703-7112-366ceabacb74/195497746774.jpg/1000x1000bb.jpeg",
+    "id": "1504072014",
+    "title": "Всё, что ненавидел",
+    "artist": "Гуляй Рванина",
+    "album": "Дар речи",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D1%81%D1%91-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5%D0%BD%D0%B0%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB/1504072010?app=music&at=11lt62&ct=tracklink",
+    "isrc": "FRX452042246",
+    "duration": "157",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D1%81%D1%91-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5%D0%BD%D0%B0%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB/1504072010?i=1504072014&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/15/5c/1c/155c1c57-5c8d-e0a2-758f-b8d241898188/cover.jpg/1000x1000bb.jpeg",
     "position": "1",
     "shareUrls": [],
-    "color": "#fbfbf3",
+    "color": "#3e3e3e",
+    "hue": 0
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1507323322",
+    "title": "Весело и грустно (feat. Хаски)",
+    "artist": "IC3PEAK",
+    "album": "До Cвидания",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D0%BE-%D0%B8-%D0%B3%D1%80%D1%83%D1%81%D1%82%D0%BD%D0%BE-feat-%D1%85%D0%B0%D1%81%D0%BA%D0%B8/1507322505?app=music&at=11lt62&ct=tracklink",
+    "isrc": "QM6MZ2019113",
+    "duration": "195",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D0%BE-%D0%B8-%D0%B3%D1%80%D1%83%D1%81%D1%82%D0%BD%D0%BE-feat-%D1%85%D0%B0%D1%81%D0%BA%D0%B8/1507322505?i=1507323322&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/c3/28/74/c328747d-32f7-67f6-4f66-d155c169f87e/195081156378.jpg/1000x1000bb.jpeg",
+    "position": "11",
+    "shareUrls": [],
+    "color": "#040404",
     "hue": 0
   }
 ]

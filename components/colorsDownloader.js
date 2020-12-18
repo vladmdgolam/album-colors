@@ -61,8 +61,9 @@ const ColorDownloader = () => {
   }, [count])
 
   const sort = () => {
-    const newAlbums = sortColorsByHue(albums)
+    const newAlbums = sortColorsByHue(albums).reverse()
     setAlbums(newAlbums)
+    console.log("new albums")
   }
 
   const downloadRef = useRef(null)
