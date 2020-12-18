@@ -12,7 +12,7 @@ const useIsMobile = () => {
   }, [isMobile])
 
   const handleWindowSizeChange = () => {
-    return setIsMobile(window.innerWidth < 992 ? true : false)
+    return setIsMobile(window.innerWidth < 900 ? true : false)
   }
 
   return isMobile
