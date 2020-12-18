@@ -1,13 +1,22 @@
+import { useState } from "react"
 import Head from "next/head"
 import styled from "styled-components"
 
 import CardList from "@/components/cardList"
+import { AppProvider } from "@/hooks/AppContext"
+// import ColorDownloader from "@/components/colorsDownloader"
 
-const Credits = styled.div`
-  padding: 20px;
-`
+const Credits = styled.div``
 const P = styled.p`
   margin-bottom: 5px;
+`
+
+const Button = styled.button`
+  /* --webkit-appearance: none; */
+  /* border: none; */
+  /* background: none; */
+  margin: 10px 0;
+  outline: none;
 `
 
 const Link = styled.a`
@@ -15,13 +24,18 @@ const Link = styled.a`
 `
 
 export default function Home() {
+  const [showColors, setShowColors] = useState(false)
+  const dataProvider = {
+    showColors,
+    setShowColors,
+  }
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Цвета Альбомов</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <CardList />
+
       <Credits>
         <P>
           <Link href="https://music.apple.com/ru/playlist/covers/pl.u-k8qau4kZjdA">
@@ -54,6 +68,12 @@ export default function Home() {
           <Link href="https://albumcolors.com/">Album Covers</Link>
         </P>
       </Credits>
+
+      <Button onClick={() => setShowColors(!showColors)}>Показать цвета!</Button>
+
+      <AppProvider value={dataProvider}>
+        <CardList />
+      </AppProvider>
     </div>
   )
 }

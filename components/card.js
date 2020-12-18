@@ -1,4 +1,4 @@
-import { useRef, useState, useContext } from "react"
+import { useRef, useContext, useEffect } from "react"
 import styled from "styled-components"
 import ColorThief from "colorthief"
 
@@ -32,45 +32,42 @@ const Container = styled.div`
 const Wrapper = styled.a`
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   img {
     width: 100%;
     height: auto;
   }
 `
 
+const Color = styled.div`
+  background-color: ${({ color }) => color};
+  display: flex;
+`
+
+const Img = styled.img`
+  will-change: opacity;
+  transition: var(--transition);
+  &:hover{ 
+    opacity: 0;
+  }
+
+  opacity: ${({ showColors }) => (showColors ? 0 : 1)};
+`
+
 function Card({ song }) {
-  const { picture, album, artist, albumLink } = song
-  const [color, setColor] = useState(null)
-  const imgRef = useRef(null)
+  const { picture, album, artist, albumLink, color } = song
   const { showColors } = useContext(AppContext)
 
-  // const getColor = () => {
-  //   const colorThief = new ColorThief()
-  //   imgRef.current.crossOrigin = "Anonymous"
-  //   let img = imgRef.current
-  //   img.crossOrigin = "Anonymous"
-
-  //   const result = colorThief.getColor(img, 100)
-  //   const futureColor = rgbToHex(...result)
-  //   setColor(futureColor)
-  // }
-
-  // const { data: dominantColor, loading, error } = useColor(picture, "hex", {
-  //   crossOrigin: "Anonymous",
-  //   quality: 100,
-  // })
-
   return (
-    <Container color={color}>
+    <Container>
       <Wrapper href={albumLink}>
-        <img
-          crossOrigin="Anonymous"
-          ref={imgRef}
-          src={picture}
-          alt={album}
-          // onLoad={getColor}
-        />
+        <Color color={color}>
+          <Img
+            showColors={showColors}
+            crossOrigin="Anonymous"
+            src={picture}
+            alt={album}
+          />
+        </Color>
 
         <H1>{album}</H1>
         <H1>{artist}</H1>
