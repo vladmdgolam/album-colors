@@ -62,25 +62,27 @@ export default function Home() {
           <Link href="https://open.spotify.com/playlist/2ntwTz2ctoV4etEqFK6vNH?si=kvMz23fMTVeGgLzfMKtvLQ">
             «2020: крутая русская музыка»
           </Link>{" "}
-          и Александра Горбачёва{" "}
+          и&nbsp;Александра Горбачёва{" "}
           <Link href="https://open.spotify.com/playlist/2RpRwEHD33Yjs3yq4KiAIc?si=vAne_VGQTcyroJz9tqmX6g">
             «2020»
           </Link>
           , итоги года{" "}
-          <Link href="https://the-flow.ru/megaitogi2020">The-Flow</Link> и{" "}
+          <Link href="https://the-flow.ru/megaitogi2020">The-Flow</Link> и&nbsp;
           <Link href="https://music.yandex.ru/users/music-blog/playlists/2459">
             Яндекс.Музыки
-          </Link>{" "}
-          и лента друзей Spotify
+          </Link>
+          &nbsp;и лента друзей в Spotify
         </P>
         <P>
-          Придумал и разработал:{" "}
-          <Link href="https://vladmdgolam.now.sh/">Влад Мд</Link>, дизайн:{" "}
-          <Link href="https://www.instagram.com/921d0/">Катя До</Link>
+          Разработал и&nbsp;запустил:{" "}
+          <Link href="https://vladmdgolam.now.sh/">Влад&nbsp;Мд</Link>
+          <br />
+          Дизайн:{" "}
+          <Link href="https://www.instagram.com/921d0/">Катя&nbsp;До</Link>
         </P>
         <P>
           Сильно вдохновлено проектом{" "}
-          <Link href="https://albumcolors.com/">Album Covers</Link>
+          <Link href="https://albumcolors.com/">Album&nbsp;Covers</Link>
         </P>
       </Credits>
 
