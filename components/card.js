@@ -23,18 +23,18 @@ const Container = styled.div`
   align-items: center;
   display: flex;
   background: ${({ color }) => (color ? color : "transparent")};
-  &::before {
+  /* &::before {
     content: "";
     display: inline-block;
     padding-bottom: 100%;
-  }
+  } */
 `
 const Wrapper = styled.a`
   display: flex;
   flex-direction: column;
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 `
 
@@ -46,10 +46,9 @@ const Color = styled.div`
 const Img = styled.img`
   will-change: opacity;
   transition: var(--transition);
-  &:hover{ 
+  &:hover {
     opacity: 0;
   }
-
   opacity: ${({ showColors }) => (showColors ? 0 : 1)};
 `
 
