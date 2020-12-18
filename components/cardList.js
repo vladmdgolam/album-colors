@@ -6,7 +6,6 @@ import useIsMobile from "@/hooks/useIsMobile"
 
 const Grid = styled.div`
   width: 100%;
-  /* padding: 20px; */
   display: grid;
   grid-template-columns: repeat(${({ isMobile }) => (isMobile ? 1 : 3)}, 1fr);
   gap: 20px;

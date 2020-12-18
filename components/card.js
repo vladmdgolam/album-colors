@@ -46,9 +46,6 @@ const Color = styled.div`
 const Img = styled.img`
   will-change: opacity;
   transition: var(--transition);
-  &:hover {
-    opacity: 0;
-  }
   opacity: ${({ showColors }) => (showColors ? 0 : 1)};
 `
 

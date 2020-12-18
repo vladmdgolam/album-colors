@@ -5,6 +5,7 @@ import styled from "styled-components"
 import CardList from "@/components/cardList"
 import { AppProvider } from "@/hooks/AppContext"
 // import ColorDownloader from "@/components/colorsDownloader"
+import Color from "color-thief-react"
 
 const Credits = styled.div``
 const P = styled.p`
@@ -35,6 +36,8 @@ export default function Home() {
         <title>Цвета Альбомов</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      {/* <ColorDownloader /> */}
 
       <Credits>
         <P>
@@ -69,7 +72,9 @@ export default function Home() {
         </P>
       </Credits>
 
-      <Button onClick={() => setShowColors(!showColors)}>Показать цвета!</Button>
+      <Button onClick={() => setShowColors(!showColors)}>
+        Показать цвета!
+      </Button>
 
       <AppProvider value={dataProvider}>
         <CardList />

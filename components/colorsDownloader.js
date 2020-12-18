@@ -3,6 +3,7 @@ import styled from "styled-components"
 import ColorThief from "colorthief"
 
 import rgbToHex from "@/lib/rgbToHex"
+import sortColorsByHue from "@/lib/sortColors"
 
 import data from "@/data/albums.json"
 
@@ -55,12 +56,13 @@ const ColorDownloader = () => {
       console.log("finished", albums)
       sort()
     } else {
-        console.log({count})
+      console.log({ count })
     }
   }, [count])
 
   const sort = () => {
-    
+    const newAlbums = sortColorsByHue(albums)
+    setAlbums(newAlbums)
   }
 
   const downloadRef = useRef(null)
