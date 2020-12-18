@@ -7,7 +7,7 @@ const Credits = styled.div`
   padding: 20px;
 `
 const P = styled.p`
-margin-bottom: 5px;
+  margin-bottom: 5px;
 `
 
 const Link = styled.a`
@@ -23,6 +23,11 @@ export default function Home() {
       </Head>
       <CardList />
       <Credits>
+        <P>
+          <Link href="https://music.apple.com/ru/playlist/covers/pl.u-k8qau4kZjdA">
+            Плейлист!
+          </Link>
+        </P>
         <P>
           Источники: плейлист Николая Редькина{" "}
           <Link href="https://open.spotify.com/playlist/2ntwTz2ctoV4etEqFK6vNH?si=kvMz23fMTVeGgLzfMKtvLQ">
@@ -43,6 +48,10 @@ export default function Home() {
           Придумал и разработал:{" "}
           <Link href="https://vladmdgolam.now.sh/">Влад Мд</Link>, дизайн:{" "}
           <Link href="https://www.instagram.com/921d0/">Катя До</Link>
+        </P>
+        <P>
+          Сильно вдохновлено проектом{" "}
+          <Link href="https://albumcolors.com/">Album Covers</Link>
         </P>
       </Credits>
     </div>

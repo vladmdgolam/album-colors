@@ -29,7 +29,7 @@ const Container = styled.div`
     padding-bottom: 100%;
   }
 `
-const Wrapper = styled.div`
+const Wrapper = styled.a`
   display: flex;
   flex-direction: column;
   /* width: 100%; */
@@ -40,7 +40,7 @@ const Wrapper = styled.div`
 `
 
 function Card({ song }) {
-  const { picture, album, artist } = song
+  const { picture, album, artist, albumLink } = song
   const [color, setColor] = useState(null)
   const imgRef = useRef(null)
   const { showColors } = useContext(AppContext)
@@ -63,7 +63,7 @@ function Card({ song }) {
 
   return (
     <Container color={color}>
-      <Wrapper>
+      <Wrapper href={albumLink}>
         <img
           crossOrigin="Anonymous"
           ref={imgRef}
@@ -71,6 +71,7 @@ function Card({ song }) {
           alt={album}
           // onLoad={getColor}
         />
+
         <H1>{album}</H1>
         <H1>{artist}</H1>
       </Wrapper>
