@@ -7,16 +7,28 @@ import { AppProvider } from "@/hooks/AppContext"
 // import ColorDownloader from "@/components/colorsDownloader"
 import Color from "color-thief-react"
 
-const Credits = styled.div``
+const Credits = styled.div`
+  max-width: 650px;
+`
 const P = styled.p`
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  line-height: 1.3;
 `
 
 const Button = styled.button`
-  /* --webkit-appearance: none; */
-  /* border: none; */
+  --webkit-appearance: none;
+  border: none;
   /* background: none; */
-  margin: 10px 0;
+  position: fixed;
+  z-index: 10;
+  right: 20px;
+  top: 20px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin: 0;
   outline: none;
 `
 
@@ -46,7 +58,7 @@ export default function Home() {
           </Link>
         </P>
         <P>
-          Источники: плейлист Николая Редькина{" "}
+          Источники: плейлисты Николая Редькина{" "}
           <Link href="https://open.spotify.com/playlist/2ntwTz2ctoV4etEqFK6vNH?si=kvMz23fMTVeGgLzfMKtvLQ">
             «2020: крутая русская музыка»
           </Link>{" "}
