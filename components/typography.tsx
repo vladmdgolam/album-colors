@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import { sm } from "@/data/constants"
+// import { sm } from "@/data/constants"
 
 // export const H1 = styled.h1`
 //   font-size: calc(var(--px) * 105);
