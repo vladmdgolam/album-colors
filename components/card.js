@@ -9,8 +9,6 @@ const H1 = styled.h1`
   margin-top: 5px;
   margin-bottom: 0;
   line-height: 1;
-
-  font-family: "Suisse Int'l";
   font-size: 20px;
 
   font-weight: normal;
@@ -50,8 +48,13 @@ const Img = styled.img`
 `
 
 function Card({ song }) {
-  const { picture, album, artist, albumLink, color } = song
+  const { album, artist, albumLink, color } = song
   const { showColors } = useContext(AppContext)
+
+  const cut = (string) => {
+    return string.toLowerCase().replace(/\s/g, "-").replace(/\?/g, "")
+  }
+  const filename = cut(artist) + "·" + cut(album)
 
   return (
     <Container>
@@ -60,7 +63,7 @@ function Card({ song }) {
           <Img
             showColors={showColors}
             crossOrigin="Anonymous"
-            src={picture}
+            src={`/albums/${filename}.jpg`}
             alt={album}
           />
         </Color>

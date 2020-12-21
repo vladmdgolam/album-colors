@@ -2,19 +2,22 @@ import data from "@/data/albums.json"
 import Card from "@/components/card"
 import styled from "styled-components"
 
-import useIsMobile from "@/hooks/useIsMobile"
+import { sm } from "@/data/constants"
 
 const Grid = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(${({ isMobile }) => (isMobile ? 1 : 3)}, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+
+  ${sm} {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
 
 const CardList = () => {
-  const isMobile = useIsMobile()
   return (
-    <Grid isMobile={isMobile}>
+    <Grid>
       {data.map((song, key) => (
         <Card song={song} key={key} />
       ))}
