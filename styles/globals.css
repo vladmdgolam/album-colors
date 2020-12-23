@@ -70,6 +70,9 @@ h3 {
 }
 
 @media screen and (max-width: 899.999px) {
+  body {
+    padding: calc(var(--mpx) * 30) calc(var(--mpx) * 20);
+  }
   h1 {
     font-size: calc(var(--mpx) * 27);
   }
