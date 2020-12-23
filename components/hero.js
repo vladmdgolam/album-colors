@@ -113,8 +113,13 @@ const TopText = styled.div`
 
 const RightContent = styled.div`
   position: absolute;
+  transform-origin: 50% 0;
+  transform: rotate(90deg);
   ${xl} {
     right: ${() => usePx(-322.5)};
+  }
+  ${sm} {
+    right: calc((100vw / 375) * -160);
   }
 `
 
@@ -122,11 +127,6 @@ const RightText = styled.h3`
   display: block;
   text-transform: uppercase;
   line-height: 1;
-  transform-origin: 50% 0;
-  transform: rotate(90deg);
-  ${sm} {
-    transform: rotate(90deg) translateY(${() => usePx(-170)});
-  }
 `
 
 const BottomText = styled.div`
@@ -147,15 +147,11 @@ const BottomText = styled.div`
 `
 
 const LeftContent = styled.div`
-  /* position: absolute;
-  left: 20px;
-  top: 60%; */
-
   position: absolute;
   left: ${() => usePx(-309)};
   margin-left: ${() => usePx(20)};
 
-  @media (max-width: 512px) {
+  ${sm} {
     left: ${() => usePx(-171)};
   }
 `
