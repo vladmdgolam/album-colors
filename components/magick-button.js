@@ -1,29 +1,85 @@
 import { useContext } from "react"
 import AppContext from "@/hooks/AppContext"
 import styled from "styled-components"
+import { sm } from "@/data/constants"
+import usePx from "@/hooks/usePx"
+
+// const Rainbow = styled.button`
+//   width: ${() => usePx(85)};
+//   height: ${() => usePx(85)};
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background: conic-gradient(
+//     from 180deg at 47.24% 49.67%,
+//     #dc0936 -1.01deg,
+//     #f07a16 59.21deg,
+//     #efe61f 90.23deg,
+//     #1a9d40 119.3deg,
+//     #209b6c 148.36deg,
+//     #169ed8 179.66deg,
+//     #193e8e 210.19deg,
+//     #881f7e 269.1deg,
+//     #d80681 299.83deg,
+//     #dc0936 358.99deg,
+//     #f07a16 419.21deg
+//   );
+//   backdrop-filter: blur(29px);
+// `
 
 const Button = styled.button`
   --webkit-appearance: none;
   border: none;
-  /* background: none; */
   position: fixed;
   z-index: 10;
-  right: 20px;
-  top: 20px;
+  right: 35px;
+  top: 35px;
   background: black;
+  /* background: ${({ show }) =>
+    show
+      ? "var(--gradient)"
+      : "black"}; */
   color: white;
   cursor: pointer;
-  padding: 5px 10px;
-  border-radius: 7px;
+  width: ${() => usePx(75)};
+  height: ${() => usePx(75)};
+  border-radius: 100%;
   margin: 0;
   outline: none;
+  transform-style: preserve-3d;
+
+  &:before {
+    border-radius: 100%;
+    transform: translateZ(-1px);
+    width: ${() => usePx(75)};
+    height: ${() => usePx(75)};
+    left: 0;
+    top: 0;
+    position: absolute;
+    content: "";
+    background: conic-gradient(
+      from 180deg at 47.24% 49.67%,
+      #dc0936 -1.01deg,
+      #f07a16 59.21deg,
+      #efe61f 90.23deg,
+      #1a9d40 119.3deg,
+      #209b6c 148.36deg,
+      #169ed8 179.66deg,
+      #193e8e 210.19deg,
+      #881f7e 269.1deg,
+      #d80681 299.83deg,
+      #dc0936 358.99deg,
+      #f07a16 419.21deg
+    );
+    filter: blur(7px);
+  }
+  ${sm} {
+  }
 `
 
 const magickButton = () => {
   const { showColors, setShowColors } = useContext(AppContext)
-  return (
-    <Button onClick={() => setShowColors(!showColors)}>Показать цвета!</Button>
-  )
+  return <Button show={showColors} onClick={() => setShowColors(!showColors)} />
 }
 
 export default magickButton

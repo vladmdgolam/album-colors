@@ -711,7 +711,8 @@
     "position": "1",
     "shareUrls": [],
     "color": "#673a2e",
-    "hue": 80.70422535211267
+    "hue": 80.70422535211267,
+    "big": true
   },
   {
     "platform": "applemusicapp",

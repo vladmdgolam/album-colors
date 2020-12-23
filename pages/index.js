@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* <ColorDownloader /> */}
       <Header />
-
+      <MagicButton />
       <CardList />
 
       <Footer />
