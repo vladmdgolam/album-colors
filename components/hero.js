@@ -13,6 +13,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: ${() => usePx(20)};
 
   &:after {
     content: "";
