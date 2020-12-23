@@ -1681,5 +1681,22 @@
     "shareUrls": [],
     "color": "#e4e4e4",
     "hue": 0
+  },
+  {
+    "platform": "applemusicapp",
+    "type": "track",
+    "id": "1542409590",
+    "title": "Черви",
+    "artist": "игла & Horus",
+    "album": "Караван",
+    "albumLink": "https://geo.music.apple.com/ru/album/%D1%87%D0%B5%D1%80%D0%B2%D0%B8/1542409586?app=music&at=11lt62&ct=tracklink",
+    "isrc": "QMFME2075067",
+    "duration": "129",
+    "trackLink": "https://geo.music.apple.com/ru/album/%D1%87%D0%B5%D1%80%D0%B2%D0%B8/1542409586?i=1542409590&app=music&at=11lt62&ct=tracklink",
+    "picture": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/f7/03/19/f7031913-2783-ed17-a425-d36717ee879c/195497720095.jpg/200x200bb.jpeg",
+    "position": "2",
+    "shareUrls": [],
+    "color": "#3b1414",
+    "hue": 0
   }
 ]
