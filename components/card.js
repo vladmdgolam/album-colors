@@ -2,10 +2,12 @@ import { useRef, useContext, useEffect } from "react"
 import styled from "styled-components"
 import ColorThief from "colorthief"
 
+import selected from "@/data/selected"
 import AppContext from "@/hooks/AppContext"
 import rgbToHex from "@/lib/rgbToHex"
 import usePx from "@/hooks/usePx"
 import { xl } from "@/data/constants"
+import getFileName from "@/lib/getFilename"
 
 const Album = styled.h1`
   margin-top: 0;
@@ -28,16 +30,18 @@ const Container = styled.div`
   display: flex;
   background: ${({ color }) => (color ? color : "transparent")};
   padding: ${() => usePx(20)};
-  border: 1px solid ${({ color }) => (color ? color : "var(--text-color)")}; ;
+  border: 1px solid ${({ color }) => (color ? color : "var(--text-color)")};
+
+  ${xl} {
+    grid-column: ${({ big }) => (big ? "span 2" : "initial")};
+    grid-row: ${({ big }) => (big ? "span 2" : "initial")};
+  }
 `
 const Wrapper = styled.a`
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-
-  grid-column: ${({ big }) => (big ? "span 2" : "initial")};
-  grid-row: ${({ big }) => (big ? "span 2" : "initial")};
 
   img {
     width: 100%;
@@ -73,22 +77,17 @@ function Card({ song }) {
   const { album, artist, albumLink, color, id } = song
   const { showColors } = useContext(AppContext)
 
-  const cut = (string) => {
-    return string.toLowerCase().replace(/\s/g, "-").replace(/\?/g, "")
-  }
-  const filename = cut(artist) + "·" + cut(album)
+  const filename = getFileName(artist, album)
   const clearedAlbum = album.replace(/\s\-\sEP/g, "")
 
-  const bigger = ["1497115892"]
-
   return (
-    <Container big={bigger.includes(id)}>
+    <Container big={selected.selected.includes(id)}>
       <Wrapper href={albumLink}>
         <Color color={color}>
           <Img
             showColors={showColors}
             crossOrigin="Anonymous"
-            src={`/albums/${filename}.jpg`}
+            src={filename}
             alt={{ artist } + " " + clearedAlbum}
           />
         </Color>

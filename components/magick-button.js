@@ -32,13 +32,9 @@ const Button = styled.button`
   border: none;
   position: fixed;
   z-index: 10;
-  right: 35px;
-  top: 35px;
+  right: ${() => usePx(35)};
+  top: ${() => usePx(35)};
   background: black;
-  /* background: ${({ show }) =>
-    show
-      ? "var(--gradient)"
-      : "black"}; */
   color: white;
   cursor: pointer;
   width: ${() => usePx(75)};
@@ -48,11 +44,22 @@ const Button = styled.button`
   outline: none;
   transform-style: preserve-3d;
 
+  ${sm} {
+    right: ${() => usePx(10)};
+    top: ${() => usePx(10)};
+    width: ${() => usePx(35)};
+    height: ${() => usePx(35)};
+  }
+
   &:before {
     border-radius: 100%;
     transform: translateZ(-1px);
     width: ${() => usePx(75)};
     height: ${() => usePx(75)};
+    ${sm} {
+      width: ${() => usePx(35)};
+      height: ${() => usePx(35)};
+    }
     left: 0;
     top: 0;
     position: absolute;

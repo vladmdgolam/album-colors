@@ -40,6 +40,7 @@ body {
   padding: calc(var(--px) * 30) calc(var(--px) * 20);
   background: var(--bg-color);
   color: var(--text-color);
+  text-transform: uppercase;
 }
 
 h1,
@@ -52,7 +53,7 @@ h6 {
   font-weight: normal;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 h1 {
@@ -63,10 +64,17 @@ h2 {
   font-size: calc(var(--px) * 43);
   line-height: 1.04;
 }
-@media screen and (max-width: var(--mob)) {
+h3 {
+  font-size: calc(var(--px) * 28);
+  line-height: 1.04;
+}
+
+@media screen and (max-width: 899.999px) {
   h1 {
+    font-size: calc(var(--mpx) * 27);
   }
-  h2 {
+  h3 {
+    font-size: calc(var(--mpx) * 14);
   }
 }
 
