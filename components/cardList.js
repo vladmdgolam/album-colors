@@ -19,7 +19,7 @@ const CardList = () => {
   return (
     <Grid>
       {data.map((song, key) => (
-        <Card song={song} key={key} />
+        <Card song={song} id={key} key={key} />
       ))}
     </Grid>
   )

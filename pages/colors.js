@@ -1,23 +1,10 @@
-import { useRef, useContext, useEffect } from "react"
+import { useContext } from "react"
 import styled from "styled-components"
-import ColorThief from "colorthief"
 
+import data from "@/data/albums.json"
+import { sm } from "@/data/constants"
+import MagicButton from "@/components/magick-button"
 import AppContext from "@/hooks/AppContext"
-import rgbToHex from "@/lib/rgbToHex"
-import usePx from "@/hooks/usePx"
-
-const Album = styled.h1`
-  margin-top: ${() => usePx(25)};
-  margin-bottom: ${() => usePx(50)};
-  line-height: 1.14;
-  font-size: ${() => usePx(21)};
-  font-weight: normal;
-`
-const Artist = styled(Album)`
-  margin: 0;
-  font-size: ${() => usePx(21)};
-`
-const ColorHex = styled(Artist)``
 
 const Container = styled.div`
   width: 100%;
@@ -26,8 +13,6 @@ const Container = styled.div`
   align-items: center;
   display: flex;
   background: ${({ color }) => (color ? color : "transparent")};
-  padding: ${() => usePx(20)};
-  border: 1px solid ${({ color }) => (color ? color : "var(--text-color)")}; ;
 `
 const Wrapper = styled.a`
   display: flex;
@@ -49,11 +34,6 @@ const Img = styled.img`
   opacity: ${({ showColors }) => (showColors ? 0 : 1)};
 `
 
-const Flex = styled.div`
-  display: flex;
-  justify-content: space-between;
-`
-
 function Card({ song }) {
   const { album, artist, albumLink, color } = song
   const { showColors } = useContext(AppContext)
@@ -62,28 +42,44 @@ function Card({ song }) {
     return string.toLowerCase().replace(/\s/g, "-").replace(/\?/g, "")
   }
   const filename = cut(artist) + "·" + cut(album)
-  const clearedAlbum = album.replace(/\s\-\sEP/g, "")
 
   return (
     <Container>
+      <MagicButton />
       <Wrapper href={albumLink}>
         <Color color={color}>
           <Img
             showColors={showColors}
             crossOrigin="Anonymous"
             src={`/albums/${filename}.jpg`}
-            alt={{ artist } + " " + clearedAlbum}
+            alt={album}
           />
         </Color>
-
-        <Album>{clearedAlbum}</Album>
-        <Flex>
-          <Artist>{artist}</Artist>
-          <ColorHex>{color}</ColorHex>
-        </Flex>
       </Wrapper>
     </Container>
   )
 }
 
-export default Card
+const Grid = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10vw, 1fr));
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 20px; */
+
+  ${sm} {
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
+`
+
+const CardList = () => {
+  return (
+    <Grid>
+      {data.map((song, key) => (
+        <Card song={song} id={key} key={key} />
+      ))}
+    </Grid>
+  )
+}
+
+export default CardList
