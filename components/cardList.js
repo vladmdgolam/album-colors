@@ -31,7 +31,7 @@ const CardList = () => {
   }, [])
   return (
     <>
-      <Grid>{featuredSong && <Hero song={featuredSong[0]} />}</Grid>
+      {featuredSong && <Hero song={featuredSong[0]} />}
       <Grid>
         {data.map((song, key) => (
           <Card song={song} id={key} key={key} />

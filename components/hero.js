@@ -7,7 +7,7 @@ import { sm, xl } from "@/data/constants"
 
 const Container = styled.div`
   grid-column: span 3;
-  border: 1px solid ${(props) => props.color};
+  border: 1px solid var(--text-color);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -182,7 +182,7 @@ const Hero = ({ song }) => {
   const filename = getFileName(artist, album)
 
   return (
-    <Container color="blue">
+    <Container>
       {/* <TopText>
         A COLLECTION OF 150 ALBUM COVERS TO celebrate the colors in music in
         2020.
