@@ -34,8 +34,9 @@ const Button = styled.button`
   z-index: 10;
   right: ${() => usePx(35)};
   top: ${() => usePx(35)};
-  background: black;
-  color: white;
+  background: ${({ show }) => (show ? "var(--text-color)" : "var(--bg-color)")};
+  border: 4px solid
+    ${({ show }) => (show ? "var(--bg-color)" : "var(--text-color)")};
   cursor: pointer;
   width: ${() => usePx(75)};
   height: ${() => usePx(75)};
@@ -43,6 +44,7 @@ const Button = styled.button`
   margin: 0;
   outline: none;
   transform-style: preserve-3d;
+  transition: var(--transition);
 
   ${sm} {
     right: ${() => usePx(10)};
