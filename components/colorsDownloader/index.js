@@ -37,8 +37,12 @@ const Sort = (props) => {
 
   return (
     <>
-      <button onClick={() => setShowColors(!showColors)}>toggle colors</button>
-      <button onClick={() => download(state)}>download sorted</button>
+      <menu>
+        <button onClick={() => setShowColors(!showColors)}>
+          toggle colors
+        </button>
+        <button onClick={() => download(state)}>download sorted</button>
+      </menu>
       <Flex list={state} setList={setState}>
         {state.map((item) => {
           const filename = getFileName(item.artist, item.album)
@@ -88,15 +92,17 @@ const ColorsDownloader = () => {
 
   return (
     <>
-      <button onClick={sort}>color sort</button>
-      <button onClick={setColorCompute}>color recompute</button>
-      <button
-        ref={downloadRef}
-        download="albums.json"
-        onClick={() => download(albums)}
-      >
-        download not mixed
-      </button>
+      <menu>
+        <button onClick={sort}>color sort</button>
+        <button onClick={setColorCompute}>color recompute</button>
+        <button
+          ref={downloadRef}
+          download="albums.json"
+          onClick={() => download(albums)}
+        >
+          download not mixed
+        </button>
+      </menu>
       <Mix />
       <Sort />
       {colorCompute &&
