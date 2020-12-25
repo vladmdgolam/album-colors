@@ -91,7 +91,7 @@ function Card({ song }) {
             showColors={showColors}
             crossOrigin="Anonymous"
             src={filename}
-            alt={{ artist } + " " + clearedAlbum}
+            alt={artist + " " + clearedAlbum}
           />
         </Color>
 
