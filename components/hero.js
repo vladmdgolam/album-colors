@@ -111,22 +111,29 @@ const TopText = styled.div`
   }
 `
 
-const RightContent = styled.div`
-  position: absolute;
-  transform-origin: 50% 0;
-  transform: rotate(90deg);
-  ${xl} {
-    right: ${() => usePx(-322.5)};
-  }
+const SideContent = styled.div`
+  width: ${() => usePx(28)};
+  padding: ${() => usePx(20)};
   ${sm} {
-    right: calc((100vw / 375) * -160);
+    width: ${() => usePx(14)};
   }
 `
 
-const RightText = styled.h3`
-  display: block;
+const RightContent = styled(SideContent)``
+
+const SideText = styled.h3`
+  /* padding-top: 30px; */
   text-transform: uppercase;
   line-height: 1;
+
+  /* padding-top: 20px; */
+  white-space: nowrap;
+  position: absolute;
+  transform-origin: 50% 0px;
+`
+
+const RightText = styled(SideText)`
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
 `
 
 const BottomText = styled.div`
@@ -146,21 +153,10 @@ const BottomText = styled.div`
   }
 `
 
-const LeftContent = styled.div`
-  position: absolute;
-  left: ${() => usePx(-309)};
-  margin-left: ${() => usePx(20)};
+const LeftContent = styled(SideContent)``
 
-  ${sm} {
-    left: ${() => usePx(-171)};
-  }
-`
-
-const LeftText = styled.h3`
-  text-transform: uppercase;
-  line-height: 1;
-  transform-origin: 50% 0;
-  transform: rotate(-90deg);
+const LeftText = styled(SideText)`
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 `
 
 const Circle = styled.div`
@@ -205,13 +201,7 @@ const Hero = ({ song }) => {
           <a href="https://albumcolors.com/">albumcolors.com</a>
         </LeftText>
       </LeftContent>
-      <RightContent data-scroll data-scroll-speed="-2.5">
-        <RightText>
-          Создал и курирует <a href="https://vladmdgolam.now.sh/">Влад Мд</a>,
-          дизайн: <a href="https://www.instagram.com/921d0/">Катя До</a>
-        </RightText>
-        {/* <RightText href="/">Refresh to change color</RightText> */}
-      </RightContent>
+
       <Cover
         href={albumLink}
         target="_blank"
@@ -228,6 +218,12 @@ const Hero = ({ song }) => {
           <Circle color={color}></Circle>
         </CoverContent>
       </Cover>
+      <RightContent data-scroll data-scroll-speed="-2.5">
+        <RightText>
+          Создал и курирует <a href="https://vladmdgolam.now.sh/">Влад Мд</a>,
+          дизайн: <a href="https://www.instagram.com/921d0/">Катя До</a>
+        </RightText>
+      </RightContent>
     </Container>
   )
 }

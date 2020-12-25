@@ -31,6 +31,9 @@ const Container = styled.div`
   background: ${({ color }) => (color ? color : "transparent")};
   padding: ${() => usePx(20)};
   border: 1px solid ${({ color }) => (color ? color : "var(--text-color)")};
+  &:hover {
+    border-style: dashed;
+  }
 
   ${xl} {
     grid-column: ${({ big }) => (big ? "span 2" : "initial")};
