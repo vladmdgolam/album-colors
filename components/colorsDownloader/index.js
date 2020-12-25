@@ -6,14 +6,14 @@ import data from "@/data/albums.json"
 
 import Mix from "./mix"
 
-const ColorDownloader = () => {
+const ColorsDownloader = () => {
   const [albums, setAlbums] = useState(data)
   const [count, setCount] = useState(0)
   const [colorCompute, setColorCompute] = useState(false)
 
   useEffect(() => {
     if (colorCompute) {
-      if (count === 100) {
+      if (count === 150) {
         console.log("color computing finished", albums)
       } else {
         console.log("in process", { count })
@@ -59,6 +59,7 @@ const ColorDownloader = () => {
             song={song}
             id={key}
             key={key}
+            count={count}
             increase={increase}
           />
         ))}
@@ -66,7 +67,7 @@ const ColorDownloader = () => {
   )
 }
 
-export default ColorDownloader
+export default ColorsDownloader
 
 const download = (albums) => {
   var dataStr =

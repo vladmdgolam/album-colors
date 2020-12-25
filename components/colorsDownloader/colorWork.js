@@ -4,7 +4,7 @@ import getFileName from "@/lib/getFilename"
 import ColorThief from "colorthief"
 import rgbToHex from "@/lib/rgbToHex"
 
-function ColorWork({ song, id, setAlbums, albums, increase }) {
+function ColorWork({ song, count, id, setAlbums, albums, increase }) {
   const computed = useRef(false)
   const { artist, album } = song
 
@@ -52,11 +52,11 @@ function ColorWork({ song, id, setAlbums, albums, increase }) {
     // })
 
     if (result) {
-      console.log(`%c ${path} ${futureColor}`, `background: ${futureColor};`)
-      // let nextAlbums = albums
-      // nextAlbums[id].color = futureColor
-      // increase()
-      // setAlbums(nextAlbums)
+      console.log(`%c ${count} ${path} ${futureColor}`, `background: ${futureColor};`)
+      let nextAlbums = albums
+      nextAlbums[id].color = futureColor
+      increase()
+      setAlbums(nextAlbums)
     }
   }
 
