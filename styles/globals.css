@@ -6,7 +6,8 @@
   --transition: 0.1s ease-in-out;
   --transition-slow: 0.3s ease-in-out;
   --text-color: #303030;
-  --bg-color: #fff;
+  --bg-color: #FBFAEF;
+  /* --bg-color: #fff; */
   --mob: 899.999px;
   --gradient: linear-gradient(
       217deg,
@@ -19,8 +20,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #fff;
-    --bg-color: #0c0c0c;
+    --text-color: #FBFAEF;
+    --bg-color: #303030;
   }
 }
 
