@@ -1,6 +1,7 @@
 import { useRef, useContext, useEffect } from "react"
 import styled from "styled-components"
 import ColorThief from "colorthief"
+import { useInView } from "react-intersection-observer"
 
 import selected from "@/data/selected"
 import AppContext from "@/hooks/AppContext"
@@ -45,16 +46,28 @@ const Wrapper = styled.a`
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  width: 100%;
 
   img {
     width: 100%;
-    height: 100%;
+    position: absolute;
+    max-height: 100%;
+    top: 0;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 `
 
 const Color = styled.div`
   background-color: ${({ color }) => color};
   display: flex;
+
+  padding-bottom: 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
 `
 
 const Img = styled.img`
@@ -83,16 +96,25 @@ function Card({ song }) {
   const filename = getFileName(artist, album)
   const clearedAlbum = album.replace(/\s\-\sEP/g, "")
 
+  const { ref, inView } = useInView({
+    /* Optional options */
+    // root: document.querySelector('.root'),
+    triggerOnce: true,
+    threshold: 0,
+  })
+
   return (
-    <Container big={selected.selected.includes(id)}>
+    <Container ref={ref} big={selected.selected.includes(id)}>
       <Wrapper href={albumLink}>
         <Color color={color}>
-          <Img
-            showColors={showColors}
-            crossOrigin="Anonymous"
-            src={filename}
-            alt={artist + " " + clearedAlbum}
-          />
+          {inView && (
+            <Img
+              showColors={showColors}
+              crossOrigin="Anonymous"
+              src={filename}
+              alt={artist + " " + clearedAlbum}
+            />
+          )}
         </Color>
 
         <Info>

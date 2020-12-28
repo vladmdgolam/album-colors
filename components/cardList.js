@@ -17,6 +17,7 @@ const Grid = styled.div`
   margin-bottom: ${() => usePx(60)};
 
   ${sm} {
+    grid-auto-rows: auto;
     grid-template-columns: repeat(1, 1fr);
   }
 `
