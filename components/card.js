@@ -10,11 +10,19 @@ import usePx from "@/hooks/usePx"
 import { xl } from "@/data/constants"
 import getFileName from "@/lib/getFilename"
 
-const Album = styled.h1`
+const Single = styled.h1`
+  opacity: 0.5;
+`
+const Album = styled.div`
   margin-top: 0;
   margin-bottom: ${() => usePx(20)};
-  line-height: 1.14;
-  font-size: ${() => usePx(21)};
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    line-height: 1.14;
+    font-size: ${() => usePx(21)};
+  }
+  display: flex;
   font-weight: normal;
 `
 const Artist = styled(Album)`
@@ -93,12 +101,14 @@ function Card({ song }) {
   const { album, artist, albumLink, color, id } = song
   const { showColors } = useContext(AppContext)
 
+  const single = album.search("Single")
+
   const filename = getFileName(artist, album)
-  const clearedAlbum = album.replace(/\s\-\sEP/g, "")
+  const clearedAlbum = album
+    .replace(/\s\-\sEP/g, "")
+    .replace(/\s\-\sSingle/g, "")
 
   const { ref, inView } = useInView({
-    /* Optional options */
-    // root: document.querySelector('.root'),
     triggerOnce: true,
     threshold: 0,
   })
@@ -118,7 +128,9 @@ function Card({ song }) {
         </Color>
 
         <Info>
-          <Album>{clearedAlbum}</Album>
+          <Album>
+            <h1>{clearedAlbum}</h1> {single != -1 && <Single>сингл</Single>}
+          </Album>
           <Flex>
             <Artist>{artist}</Artist>
             <ColorHex>{color}</ColorHex>
