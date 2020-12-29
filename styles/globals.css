@@ -6,7 +6,7 @@
   --transition: 0.1s ease-in-out;
   --transition-slow: 0.3s ease-in-out;
   --text-color: #303030;
-  --bg-color: #FBFAEF;
+  --bg-color: #fbfaef;
   /* --bg-color: #fff; */
   --mob: 899.999px;
   --gradient: linear-gradient(
@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #FBFAEF;
+    --text-color: #fbfaef;
     --bg-color: #303030;
   }
 }
@@ -41,7 +41,6 @@ body {
   padding: calc(var(--px) * 30) calc(var(--px) * 20);
   background: var(--bg-color);
   color: var(--text-color);
-  text-transform: uppercase;
 }
 
 h1,
@@ -60,6 +59,9 @@ h6 {
 h1 {
   font-size: calc(var(--px) * 105);
   line-height: 0.95;
+  transform: scaleY(1.75);
+  line-height: 1.75;
+  /* transform-origin: 0% 0%; */
 }
 h2 {
   font-size: calc(var(--px) * 43);

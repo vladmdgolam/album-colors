@@ -12,12 +12,12 @@ const Grid = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 1fr;
+  /* grid-auto-rows: 1fr; */
   gap: 20px;
   margin-bottom: ${() => usePx(60)};
 
   ${sm} {
-    grid-auto-rows: auto;
+    /* grid-auto-rows: auto; */
     grid-template-columns: repeat(1, 1fr);
   }
 `

@@ -48,7 +48,7 @@ const Button = styled.button`
 
   ${sm} {
     right: ${() => usePx(10)};
-    top: ${() => usePx(10)};
+    top: ${() => usePx(30)};
     width: ${() => usePx(35)};
     height: ${() => usePx(35)};
   }

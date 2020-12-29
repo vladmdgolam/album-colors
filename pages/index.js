@@ -6,6 +6,7 @@ import CardList from "@/components/cardList"
 
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import Winners from "@/components/winners"
 import MagicButton from "@/components/magick-button"
 // import ColorDownloader from "@/components/colorsDownloader"
 
@@ -21,6 +22,8 @@ export default function Home() {
       <Header />
       <MagicButton />
       <CardList />
+
+      <Winners />
 
       <Footer />
     </div>

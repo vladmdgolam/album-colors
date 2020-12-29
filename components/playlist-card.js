@@ -7,7 +7,7 @@ import selected from "@/data/selected"
 import AppContext from "@/hooks/AppContext"
 import rgbToHex from "@/lib/rgbToHex"
 import usePx from "@/hooks/usePx"
-import { sm, xl } from "@/data/constants"
+import { xl } from "@/data/constants"
 import getFileName from "@/lib/getFilename"
 import { Caption } from "@/components/typography"
 
@@ -39,11 +39,7 @@ const Artist = styled(Album)`
   font-size: ${() => usePx(21)};
   text-transform: uppercase;
 `
-const ColorHex = styled(Artist)`
-  ${sm} {
-    margin-left: ${() => usePx(10)};
-  }
-`
+const ColorHex = styled(Artist)``
 
 const Container = styled.div`
   width: 100%;
@@ -62,11 +58,8 @@ const Container = styled.div`
     grid-column: ${({ big }) => (big ? "span 2" : "initial")};
     grid-row: ${({ big }) => (big ? "span 2" : "initial")};
   }
-  ${sm} {
-    grid-column: span 3;
-  }
 `
-const Wrapper = styled.a`
+const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -114,16 +107,8 @@ const Info = styled(Flex)`
   flex-grow: 1;
 `
 
-function Card({ song }) {
-  const { album, artist, albumLink, color, id } = song
+const Card = () => {
   const { showColors } = useContext(AppContext)
-
-  const single = album.search("Single")
-
-  const filename = getFileName(artist, album)
-  const clearedAlbum = album
-    .replace(/\s\-\sEP/g, "")
-    .replace(/\s\-\sSingle/g, "")
 
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -131,28 +116,31 @@ function Card({ song }) {
   })
 
   return (
-    <Container ref={ref} big={selected.selected.includes(id)}>
-      <Wrapper href={albumLink}>
-        <Color color={color}>
+    <Container ref={ref}>
+      <Wrapper>
+        <Color color="#303030">
           {inView && (
             <Img
               showColors={showColors}
-              crossOrigin="Anonymous"
-              src={filename}
-              alt={artist + " " + clearedAlbum}
+              src="/playlist.png"
+              alt="Album Colors playlist cover"
             />
           )}
         </Color>
-
-        <Info>
-          <Album>
-            <h3>{clearedAlbum}</h3> {single != -1 && <Single>сингл</Single>}
-          </Album>
-          <Flex>
-            <Artist>{artist}</Artist>
-            <ColorHex>{color}</ColorHex>
-          </Flex>
-        </Info>
+        {/* <Info> */}
+        {/* <Flex> */}
+        <div>
+          <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex">
+            <Artist>Apple Music</Artist>
+          </a>
+          <Artist>
+            <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
+              Spotify
+            </a>
+          </Artist>
+        </div>
+        {/* </Flex> */}
+        {/* </Info> */}
       </Wrapper>
     </Container>
   )

@@ -1,24 +1,9 @@
 import styled from "styled-components"
 import { ColumnRow } from "./layout"
-import { sm, xl } from "@/data/constants"
-import usePx from "@/hooks/usePx"
-const Arrow = styled.span`
-  transform: rotate(-45deg);
-  display: inline-block;
+import { sm } from "@/data/constants"
+// import usePx from "@/hooks/usePx"
 
-  font-size: ${() => usePx(92)};
-  line-height: 1.14;
-  vertical-align: text-top;
-
-  ${xl} {
-    margin-left: ${() => usePx(30)};
-  }
-  ${sm} {
-    font-size: ${() => usePx(20)};
-  }
-`
-
-const Listen = styled.h1`
+const Listen = styled.div`
   grid-column: span 9;
   ${sm} {
     grid-column: span 10;
@@ -34,15 +19,18 @@ const StyledFooter = styled(ColumnRow)`
   align-items: end;
 `
 
+const Flex = styled.div`
+  display: flex;
+`
+
 const Footer = () => {
   return (
     <StyledFooter>
       <Listen>
-        <a href="https://music.apple.com/ru/playlist/covers/pl.u-k8qau4kZjdA">
-          ПОСЛУШАЙТЕ<Arrow>→</Arrow>
-          <br />
-          ЦВЕТА АЛЬБОМОВ
-        </a>
+        <h1>Цвета локальных</h1>
+        <Flex>
+          <h1>альбомов</h1>
+        </Flex>
       </Listen>
       <Twenty>2020</Twenty>
     </StyledFooter>

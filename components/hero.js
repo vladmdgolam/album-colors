@@ -4,6 +4,7 @@ import AppContext from "@/hooks/AppContext"
 import getFileName from "@/lib/getFilename"
 import usePx from "@/hooks/usePx"
 import { sm, xl } from "@/data/constants"
+import { Caption } from "@/components/typography"
 
 const Container = styled.div`
   grid-column: span 3;
@@ -15,23 +16,21 @@ const Container = styled.div`
   position: relative;
   margin-bottom: ${() => usePx(20)};
 
+  ${sm} {
+    grid-column: span 1;
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    grid-gap: ${() => usePx(15)};
+    padding: 15%;
+  }
+
   &:after {
     content: "";
     display: block;
-    padding-bottom: 88%;
-  }
-
-  @media (max-width: 769px) {
-    grid-column: span 2;
-
-    &:after {
-      content: "";
-      padding-bottom: 120%;
+    padding-bottom: 100%;
+    ${sm} {
+      content: none;
     }
-  }
-
-  @media (max-width: 512px) {
-    grid-column: span 1;
   }
 `
 
@@ -50,9 +49,16 @@ const CircleContainer = styled.div`
 
 const Cover = styled.a`
   position: relative;
-  width: 60%;
-  margin: 0 auto;
+  width: 70%;
+  flex-shrink: 0;
+  margin: 0 ${() => usePx(40)};
   background-color: ${(props) => props.hexadecimal};
+
+  ${sm} {
+    width: 100%;
+    /* margin: 0 ${() => usePx(20)}; */
+    margin: 0;
+  }
 
   display: block;
   &:after {
@@ -168,6 +174,70 @@ const Circle = styled.div`
   z-index: 100;
 `
 
+const InspirationContent = styled.div`
+  position: relative;
+  flex-basis: 15%;
+  align-self: flex-start;
+  margin-top: 15%;
+  ${sm} {
+    margin-top: 0;
+  }
+`
+const Inspiration = styled.div`
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-gap: ${() => usePx(60)}; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+  transform-origin: 100% 100%;
+  ${sm} {
+    transform: none;
+    position: relative;
+  }
+`
+
+const AuthorsContent = styled.div`
+  position: relative;
+  flex-basis: 15%;
+  /* align-self: flex-end;
+  display: flex;
+  /* flex-shrink: 10000000; */
+  /* flex-grow: 0; */
+  /* right: 0; */
+  align-self: flex-end;
+  margin-bottom: 15%;
+  /* overflow: visible;
+  position: relative;
+  transform-origin: 0% 100%;
+  transform: translateX(50%) translateY(0%) rotate(-90deg); */
+  ${sm} {
+    margin-bottom: 0;
+  }
+`
+const Authors = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: ${() => usePx(60)};
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: 0% 0%;
+  transform: translateX(0%) translateY(100%) rotate(-90deg);
+  ${sm} {
+    transform: none;
+    position: relative;
+    grid-gap: ${() => usePx(20)};
+  }
+`
+const SideBlock = styled.div`
+  h2 {
+    white-space: nowrap;
+    text-decoration: underline;
+  }
+`
+
 const Hero = ({ song }) => {
   const { album, artist, albumLink, color, id } = song
   const { showColors } = useContext(AppContext)
@@ -195,12 +265,21 @@ const Hero = ({ song }) => {
         </a>
         .
       </BottomText> */}
-      <LeftContent data-scroll data-scroll-speed="3.5">
+      <InspirationContent>
+        <Inspiration>
+          <SideBlock>
+            <Caption>вдохновлено:</Caption>
+            <h2>albumcolors.com</h2>
+            {/* <Caption>albumcolors.com</Caption> */}
+          </SideBlock>
+        </Inspiration>
+      </InspirationContent>
+      {/* <LeftContent data-scroll data-scroll-speed="3.5">
         <LeftText>
           Вдохновлено проектом{" "}
           <a href="https://albumcolors.com/">albumcolors.com</a>
         </LeftText>
-      </LeftContent>
+      </LeftContent> */}
 
       <Cover
         href={albumLink}
@@ -218,12 +297,26 @@ const Hero = ({ song }) => {
           <Circle color={color}></Circle>
         </CoverContent>
       </Cover>
-      <RightContent data-scroll data-scroll-speed="-2.5">
+      <AuthorsContent>
+        <Authors>
+          <SideBlock>
+            <Caption>разработка и кураторство</Caption>
+            <h2>Vlad Md</h2>
+          </SideBlock>
+          <SideBlock>
+            <Caption>дизайн:</Caption>
+            <a href="https://www.instagram.com/921d0/">
+              <h2>Katya Do</h2>
+            </a>
+          </SideBlock>
+        </Authors>
+      </AuthorsContent>
+      {/* <RightContent data-scroll data-scroll-speed="-2.5">
         <RightText>
           Создал и курирует <a href="https://vladmdgolam.now.sh/">Влад Мд</a>,
           дизайн: <a href="https://www.instagram.com/921d0/">Катя До</a>
         </RightText>
-      </RightContent>
+      </RightContent> */}
     </Container>
   )
 }
