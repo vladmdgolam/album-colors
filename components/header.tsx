@@ -9,8 +9,6 @@ const Flex = styled.div`
 `
 
 const ScaledHeader = styled.header`
-  /* transform: scaleY(1.75);
-  transform-origin: 0% 0%; */
   grid-column: span 9;
   ${xl} {
     margin-top: calc((100vw / 1440) * -25);

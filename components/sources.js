@@ -70,7 +70,7 @@ const Sources = () => {
         </li>
         <li>
           <Source>
-            <Number>4.</Number> итоги года Яндекс.Музыки;
+            <Number>4.</Number> итоги года Яндекс.Музыки и The-Flow;
           </Source>
         </li>
         <li>
