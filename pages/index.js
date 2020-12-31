@@ -9,11 +9,15 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Winners from "@/components/winners"
 import MagicButton from "@/components/magick-button"
+import { YMInitializer } from "react-yandex-metrika"
+
 // import ColorDownloader from "@/components/colorsDownloader"
 
 export default function Home() {
   return (
     <div>
+      <YMInitializer accounts={[70926418]} />
+
       <Head>
         <title>Цвета Альбомов</title>
         <link rel="icon" href="/favicon.ico" />
