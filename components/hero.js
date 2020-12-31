@@ -19,9 +19,9 @@ const Container = styled.div`
   ${sm} {
     grid-column: span 1;
     display: grid;
-    grid-template-rows: repeat(3, max-content);
+    justify-content: normal;
     grid-gap: ${() => usePx(15)};
-    padding: 15%;
+    padding: ${() => usePx(20)};
   }
 
   &:after {
@@ -300,7 +300,7 @@ const Hero = ({ song }) => {
       <AuthorsContent>
         <Authors>
           <SideBlock>
-            <Caption>разработка и кураторство</Caption>
+            <Caption>разработка и кураторство:</Caption>
             <h2>Vlad Md</h2>
           </SideBlock>
           <SideBlock>

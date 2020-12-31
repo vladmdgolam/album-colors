@@ -11,8 +11,11 @@ const Listen = styled.div`
 `
 
 const Twenty = styled.h1`
-  grid-column: span 2;
+  grid-column: 11/12;
   text-align: right;
+  ${sm} {
+    grid-column: span 2;
+  }
 `
 
 const StyledFooter = styled(ColumnRow)`

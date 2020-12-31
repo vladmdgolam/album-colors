@@ -31,18 +31,24 @@ const Flex = styled(ReactSortable)`
   grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
 `
 
+const Menu = styled.div`
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+`
+
 const Sort = (props) => {
   const [state, setState] = useState(data)
   const { showColors, setShowColors } = useContext(AppContext)
 
   return (
     <>
-      <menu>
+      <Menu>
         <button onClick={() => setShowColors(!showColors)}>
           toggle colors
         </button>
-        <button onClick={() => download(state)}>download sorted</button>
-      </menu>
+        <button onClick={() => download(state)}>download current state</button>
+      </Menu>
       <Flex list={state} setList={setState}>
         {state.map((item) => {
           const filename = getFileName(item.artist, item.album)

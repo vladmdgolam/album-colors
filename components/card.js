@@ -150,7 +150,7 @@ function Card({ song }) {
           </Album>
           <Flex>
             <Artist>{artist}</Artist>
-            <ColorHex>{color}</ColorHex>
+            <ColorHex>{color === "#fff" ? "∞" : color}</ColorHex>
           </Flex>
         </Info>
       </Wrapper>

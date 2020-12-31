@@ -1,7 +1,8 @@
 import styled from "styled-components"
 import { ColumnRow } from "@/components/layout"
 import { Caption } from "@/components/typography"
-import { sm } from "@/data/constants"
+import { sm, xl } from "@/data/constants"
+// import usePx from "@/hooks/usePx"
 
 const Flex = styled.div`
   display: flex;
@@ -11,6 +12,9 @@ const ScaledHeader = styled.header`
   /* transform: scaleY(1.75);
   transform-origin: 0% 0%; */
   grid-column: span 9;
+  ${xl} {
+    margin-top: calc((100vw / 1440) * -25);
+  }
   ${sm} {
     grid-column: span 10;
   }
@@ -18,16 +22,15 @@ const ScaledHeader = styled.header`
 
 const Click = styled.div`
   grid-column: 11/12;
-  ${sm} {
-  }
+  /* ${xl} {
+    margin-top: ${() => usePx(25)};
+  } */
 `
 
 const StyledArrow = styled.svg`
   stroke: var(--text-color);
-  ${sm} {
-    max-width: 100%;
-    height: auto;
-  }
+  max-width: 100%;
+  height: auto;
 `
 
 const Arrow = () => (

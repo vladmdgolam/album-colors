@@ -25,6 +25,9 @@ const Grid = styled.div`
 
 const Nomination = styled(Caption)`
   margin-bottom: ${() => usePx(25)};
+  ${sm} {
+    margin-bottom: ${() => usePx(10)};
+  }
 `
 
 const Winner = styled.div``
