@@ -11,11 +11,15 @@ const Number = styled.span`
   font-size: ${() => usePx(16)};
   line-height: 1.125;
   letter-spacing: -0.03em;
+  ${sm} {
+    font-size: ${() => usePx(12)};
+  }
 `
 
 const Source = styled(Caption)`
   margin-bottom: ${() => usePx(10)};
   ${sm} {
+    font-size: ${() => usePx(16)};
     margin-bottom: ${() => usePx(5)};
   }
 `

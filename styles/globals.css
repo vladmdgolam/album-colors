@@ -79,6 +79,9 @@ h3 {
   h1 {
     font-size: calc(var(--mpx) * 27);
   }
+  h2 {
+    font-size: calc(var(--mpx) * 18);
+  }
   h3 {
     font-size: calc(var(--mpx) * 14);
   }

@@ -121,7 +121,7 @@ const Card = () => {
   return (
     <Container ref={ref}>
       <Wrapper>
-        <Color color="#303030">
+        <Color color="#EE4621">
           {inView && (
             <Img
               showColors={showColors}
@@ -133,15 +133,15 @@ const Card = () => {
 
         <Info>
           <Album>
-            {/* <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex"> */}
-            <h3>Apple Music</h3>
-            {/* </a> */}
+            <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex">
+              <h3>Apple Music</h3>
+            </a>
           </Album>
           <Flex>
             <Artist>
-              {/* <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw"> */}
-              Spotify
-              {/* </a> */}
+              <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
+                Spotify
+              </a>
             </Artist>
           </Flex>
         </Info>
