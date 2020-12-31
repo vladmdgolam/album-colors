@@ -15,6 +15,8 @@ const Grid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-bottom: ${() => usePx(60)};
+  grid-auto-rows: 1fr;
+  align-items: flex-start;
 
   ${sm} {
     grid-template-columns: repeat(1, 1fr);
@@ -29,7 +31,6 @@ const Winner = styled.div``
 
 const Winners = () => {
   const { bestAlbum, bestSingle } = selected
-  //   console.log({ bestAlbum }, { bestSingle })
 
   const bestAlbumData = data.filter((el) => el.id === bestAlbum)[0]
   const bestSingleData = data.filter((el) => el.id === bestSingle)[0]
@@ -39,7 +40,7 @@ const Winners = () => {
       <Grid>
         <Winner>
           <Nomination>1. плейлист</Nomination>
-          <PlaylistCard/>
+          <PlaylistCard />
         </Winner>
         <Winner>
           <Nomination>2. альбом года</Nomination>

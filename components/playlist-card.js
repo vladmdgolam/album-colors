@@ -7,7 +7,7 @@ import selected from "@/data/selected"
 import AppContext from "@/hooks/AppContext"
 import rgbToHex from "@/lib/rgbToHex"
 import usePx from "@/hooks/usePx"
-import { xl } from "@/data/constants"
+import { sm, xl } from "@/data/constants"
 import getFileName from "@/lib/getFilename"
 import { Caption } from "@/components/typography"
 
@@ -22,8 +22,8 @@ const Single = styled.h3`
 `
 
 const Album = styled.div`
-  margin-top: 0;
-  margin-bottom: ${() => usePx(20)};
+  /* margin-top: 0; */
+  margin-top: ${() => usePx(20)};
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -57,6 +57,9 @@ const Container = styled.div`
   ${xl} {
     grid-column: ${({ big }) => (big ? "span 2" : "initial")};
     grid-row: ${({ big }) => (big ? "span 2" : "initial")};
+  }
+  ${sm} {
+    grid-column: span 3;
   }
 `
 const Wrapper = styled.div`
@@ -127,18 +130,44 @@ const Card = () => {
             />
           )}
         </Color>
+
+        <Info>
+          <Album>
+            {/* <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex"> */}
+            <h3>Apple Music</h3>
+            {/* </a> */}
+          </Album>
+          <Flex>
+            <Artist>
+              {/* <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw"> */}
+              Spotify
+              {/* </a> */}
+            </Artist>
+          </Flex>
+        </Info>
+
+        {/* <Info>
+          <Album>
+            <h3>heeeeeee</h3>
+          </Album>
+          <Flex>
+            <Artist>hiiiiii</Artist>
+            <ColorHex>heyyyy</ColorHex>
+          </Flex>
+        </Info> */}
+
         {/* <Info> */}
         {/* <Flex> */}
-        <div>
-          <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex">
-            <Artist>Apple Music</Artist>
-          </a>
-          <Artist>
-            <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
-              Spotify
+        {/* <div>
+            <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex">
+              <Artist>Apple Music</Artist>
             </a>
-          </Artist>
-        </div>
+            <Artist>
+              <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
+                Spotify
+              </a>
+            </Artist>
+            </div> */}
         {/* </Flex> */}
         {/* </Info> */}
       </Wrapper>

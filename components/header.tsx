@@ -12,12 +12,14 @@ const ScaledHeader = styled.header`
   transform-origin: 0% 0%; */
   grid-column: span 9;
   ${sm} {
-      grid-column: span 10;
+    grid-column: span 10;
   }
 `
 
 const Click = styled.div`
-  grid-column: span 1;
+  grid-column: 11/12;
+  ${sm} {
+  }
 `
 
 const StyledArrow = styled.svg`
