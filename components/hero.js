@@ -301,7 +301,9 @@ const Hero = ({ song }) => {
         <Authors>
           <SideBlock>
             <Caption>разработка и кураторство:</Caption>
+            <a href="https://vladmdgolam.now.sh/">
             <h2>Vlad Md</h2>
+            </a>
           </SideBlock>
           <SideBlock>
             <Caption>дизайн:</Caption>
@@ -311,12 +313,7 @@ const Hero = ({ song }) => {
           </SideBlock>
         </Authors>
       </AuthorsContent>
-      {/* <RightContent data-scroll data-scroll-speed="-2.5">
-        <RightText>
-          Создал и курирует <a href="https://vladmdgolam.now.sh/">Влад Мд</a>,
-          дизайн: <a href="https://www.instagram.com/921d0/">Катя До</a>
-        </RightText>
-      </RightContent> */}
+      
     </Container>
   )
 }
