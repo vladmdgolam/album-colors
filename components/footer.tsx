@@ -48,12 +48,6 @@ const ScaledHeader = styled.header`
   }
 `
 
-const StyledArrow = styled.svg`
-  stroke: var(--text-color);
-  max-width: 100%;
-  height: auto;
-`
-
 const Year = styled.h1`
   grid-row: 2/3;
   grid-column: 11/13;
