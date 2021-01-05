@@ -246,40 +246,16 @@ const Hero = ({ song }) => {
 
   return (
     <Container>
-      {/* <TopText>
-        A COLLECTION OF 150 ALBUM COVERS TO celebrate the colors in music in
-        2020.
-      </TopText>
-      <BottomText>
-        Created and curated by{" "}
-        <a href="http://www.gasparian.co/" target="_blank" rel="noreferrer">
-          josé gasparian
-        </a>{" "}
-        &{" "}
-        <a href="https://marcosrp.co/" target="_blank" rel="noreferrer">
-          marcos rodriguez
-        </a>
-        . Developed by{" "}
-        <a href="https://edkf.com.br/" target="_blank" rel="noreferrer">
-          Edgard Kozlowski
-        </a>
-        .
-      </BottomText> */}
       <InspirationContent>
         <Inspiration>
           <SideBlock>
-            <Caption>вдохновлено:</Caption>
-            <h2>albumcolors.com</h2>
-            {/* <Caption>albumcolors.com</Caption> */}
+            <Caption>вдохновлено проектом:</Caption>
+            <a href="https://albumcolors.com/">
+              <h2>albumcolors.com</h2>
+            </a>
           </SideBlock>
         </Inspiration>
       </InspirationContent>
-      {/* <LeftContent data-scroll data-scroll-speed="3.5">
-        <LeftText>
-          Вдохновлено проектом{" "}
-          <a href="https://albumcolors.com/">albumcolors.com</a>
-        </LeftText>
-      </LeftContent> */}
 
       <Cover
         href={albumLink}
@@ -301,8 +277,8 @@ const Hero = ({ song }) => {
         <Authors>
           <SideBlock>
             <Caption>разработка и кураторство:</Caption>
-            <a href="https://vladmdgolam.now.sh/">
-            <h2>Vlad Md</h2>
+            <a href="https://vladmdgolam.me/">
+              <h2>Vlad Md</h2>
             </a>
           </SideBlock>
           <SideBlock>
@@ -313,7 +289,6 @@ const Hero = ({ song }) => {
           </SideBlock>
         </Authors>
       </AuthorsContent>
-      
     </Container>
   )
 }

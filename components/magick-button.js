@@ -36,12 +36,21 @@ import usePx from "@/hooks/usePx"
 
 const bg = css`
   border-radius: 100%;
-  border-style: solid;
-  border-color: ${({ show }) =>
-    show ? "var(--text-color)" : "var(--bg-color)"};
-  border-width: ${() => usePx(1.3)};
+  /* border-style: solid; */
+  /* border-color: ${({ show }) =>
+    show ? "var(--text-color)" : "var(--bg-color)"}; */
+  /* border-width: ${() => usePx(1.5)}; */
   background: ${({ show }) => (show ? "var(--bg-color)" : "var(--text-color)")};
   transition: var(--transition);
+
+  box-shadow: 0 0 0px ${() => usePx(1)}
+    ${({ show }) => (show ? "var(--text-color)" : "var(--bg-color)")} inset;
+  border: none;
+  padding: ${() => usePx(7)};
+  ${sm} {
+    padding: ${() => usePx(3)};
+  }
+  /* box-sizing: content-box; */
 `
 
 const Button = styled.button`
@@ -64,36 +73,40 @@ const Button = styled.button`
 
   ${sm} {
     right: ${() => usePx(10)};
-    top: ${() => usePx(30)};
+    top: ${() => usePx(20)};
     width: ${() => usePx(35)};
     height: ${() => usePx(35)};
   }
 
+  /* border: none; */
   span {
-    transform-style: preserve-3d;
+    ${bg};
+    /* transform-style: preserve-3d; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border: ${() => usePx(1.3)} solid var(--text-color);
     pointer-events: none;
-
-    ${bg};
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* background: red; */
   }
 
   & > span {
-    width: ${() => usePx(85)};
-    height: ${() => usePx(85)};
+    /* width: 85%;
+    height: 85%; */
     ${sm} {
-      width: ${() => usePx(30)};
-      height: ${() => usePx(30)};
+      /* width: ${() => usePx(30)};
+      height: ${() => usePx(30)}; */
     }
     & > span {
-      width: ${() => usePx(70)};
-      height: ${() => usePx(70)};
+      /* width: 70%;
+      height: 70%; */
       pointer-events: none;
+      box-sizing: border-box;
       ${sm} {
-        width: ${() => usePx(25)};
-        height: ${() => usePx(25)};
+        /* width: ${() => usePx(25)};
+        height: ${() => usePx(25)}; */
       }
     }
   }

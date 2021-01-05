@@ -68,17 +68,6 @@ const Wrapper = styled.div`
   height: 100%;
   justify-content: space-between;
   width: 100%;
-
-  img {
-    width: 100%;
-    position: absolute;
-    max-height: 100%;
-    top: 0;
-    object-fit: cover;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
 `
 
 const Color = styled.div`
@@ -95,6 +84,14 @@ const Img = styled.img`
   will-change: opacity;
   transition: var(--transition);
   opacity: ${({ showColors }) => (showColors ? 0 : 1)};
+  width: 100%;
+  position: absolute;
+  max-height: 100%;
+  top: 0;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  bottom: 0;
 `
 
 const Flex = styled.div`
@@ -134,42 +131,17 @@ const Card = () => {
         <Info>
           <Album>
             <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex">
-              <h3>Apple Music</h3>
+              <h3>
+                Apple Music <img src="/arrow-outer.svg" alt="" />
+              </h3>
             </a>
           </Album>
-          <Flex>
-            <Artist>
-              <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
-                Spotify
-              </a>
-            </Artist>
-          </Flex>
+          <Artist>
+            <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
+              Spotify
+            </a>
+          </Artist>
         </Info>
-
-        {/* <Info>
-          <Album>
-            <h3>heeeeeee</h3>
-          </Album>
-          <Flex>
-            <Artist>hiiiiii</Artist>
-            <ColorHex>heyyyy</ColorHex>
-          </Flex>
-        </Info> */}
-
-        {/* <Info> */}
-        {/* <Flex> */}
-        {/* <div>
-            <a href="https://music.apple.com/ru/playlist/%D1%86%D0%B2%D0%B5%D1%82%D0%B0-%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%D0%BE%D0%B2-2020/pl.u-oVdlIqMJgex">
-              <Artist>Apple Music</Artist>
-            </a>
-            <Artist>
-              <a href="https://open.spotify.com/playlist/40SDjHeZqQhlrs6x8KIwh7?si=mlIvh3WLQpqjgv2jSLdQFw">
-                Spotify
-              </a>
-            </Artist>
-            </div> */}
-        {/* </Flex> */}
-        {/* </Info> */}
       </Wrapper>
     </Container>
   )

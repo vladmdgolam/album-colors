@@ -1,20 +1,9 @@
-import { useEffect, useState } from "react"
+import { useContext } from "react"
+
+import AppContext from "@/hooks/AppContext"
 
 const useIsMobile = () => {
-  const [isMobile, setIsMobile] = useState(false)
-
-  useEffect(() => {
-    handleWindowSizeChange()
-    window.addEventListener("resize", handleWindowSizeChange)
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange)
-    }
-  }, [isMobile])
-
-  const handleWindowSizeChange = () => {
-    return setIsMobile(window.innerWidth < 900)
-  }
-
+  const { isMobile } = useContext(AppContext)
   return isMobile
 }
 

@@ -4,7 +4,7 @@ import selected from "@/data/selected"
 import Card from "@/components/card"
 import PlaylistCard from "@/components/playlist-card"
 import styled from "styled-components"
-import { Caption } from "@/components/typography"
+import { Caption, Number, H2 } from "@/components/typography"
 import usePx from "@/hooks/usePx"
 import { sm } from "@/data/constants"
 import Hero from "./hero"
@@ -40,17 +40,24 @@ const Winners = () => {
 
   return (
     <>
+    <H2>номинации</H2>
       <Grid>
         <Winner>
-          <Nomination>1. плейлист</Nomination>
+          <Nomination>
+            <Number>1.</Number> плейлист
+          </Nomination>
           <PlaylistCard />
         </Winner>
         <Winner>
-          <Nomination>2. альбом года</Nomination>
+          <Nomination>
+            <Number>2.</Number> альбом года
+          </Nomination>
           <Card song={bestAlbumData} />
         </Winner>
         <Winner>
-          <Nomination>3. сингл года</Nomination>
+          <Nomination>
+            <Number>3.</Number> сингл года
+          </Nomination>
           <Card song={bestSingleData} />
         </Winner>
       </Grid>

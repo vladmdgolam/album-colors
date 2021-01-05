@@ -4,14 +4,47 @@ import { Caption } from "@/components/typography"
 import { sm, xl } from "@/data/constants"
 import usePx from "@/hooks/usePx"
 
+const HeaderRow = styled(ColumnRow)`
+  grid-template-rows: auto;
+  row-gap: ${() => usePx(50)};
+  margin-bottom: ${() => usePx(125)};
+  ${sm} {
+    row-gap: ${() => usePx(10)};
+    margin-bottom: ${() => usePx(30)};
+  }
+`
+
+const Colors = styled.h1`
+  margin-bottom: ${() => usePx(50)};
+  padding-top: ${() => usePx(10)};
+  ${sm} {
+    padding-top: 0;
+    margin-bottom: ${() => usePx(10)};
+  }
+`
 const Flex = styled.div`
   display: flex;
+  align-items: flex-end;
+  h2 {
+    margin-left: ${() => usePx(30)};
+    transform: scaleY(1.75);
+    line-height: 1.35;
+    ${sm} {
+      margin-left: ${() => usePx(10)};
+      font-size: ${() => usePx(14)};
+    }
+  }
 `
 
 const ScaledHeader = styled.header`
   grid-column: span 9;
+  grid-row: 1/3;
+  h1 {
+    cursor: default;
+    user-select: none;
+  }
   ${xl} {
-    margin-top: calc((100vw / 1440) * -25);
+    margin-top: ${() => usePx(-25)};
   }
   ${sm} {
     grid-column: span 10;
@@ -20,15 +53,23 @@ const ScaledHeader = styled.header`
 
 const Click = styled.div`
   grid-column: 11/12;
-  /* ${xl} {
-    margin-top: ${() => usePx(25)};
-  } */
+  grid-row: 1/2;
+  cursor: default;
 `
 
 const StyledArrow = styled.svg`
   stroke: var(--text-color);
   max-width: 100%;
   height: auto;
+`
+
+const Year = styled.h1`
+  grid-row: 2/3;
+  grid-column: 11/13;
+  align-self: end;
+  ${sm} {
+    /* grid-column: span 2; */
+  }
 `
 
 const Arrow = () => (
@@ -54,18 +95,22 @@ const Arrow = () => (
 
 const Header = () => {
   return (
-    <ColumnRow>
+    <HeaderRow>
       <ScaledHeader>
-        <h1>Цвета локальных</h1>
+        <Colors>Цвета локальных</Colors>
         <Flex>
-          <h1>альбомов</h1>
+          <div>
+            <h1>альбомов</h1>
+          </div>
+          <h2>и синглов</h2>
         </Flex>
       </ScaledHeader>
       <Click>
         <Caption>click!</Caption>
         <Arrow />
       </Click>
-    </ColumnRow>
+      <Year>2020</Year>
+    </HeaderRow>
   )
 }
 

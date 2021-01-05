@@ -11,14 +11,12 @@ import { sm } from "@/data/constants"
 //     /* font-size: calc(var(--px) * 105); */
 //   }
 // `
-// export const H2 = styled.h2`
-//   font-size: calc(var(--px) * 43);
-//   line-height: 1.04;
-
-//   ${sm} {
-//     /* font-size: calc(var(--px) * 105); */
-//   }
-// `
+export const H2 = styled.h2`
+  margin-bottom: ${() => usePx(36)};
+  ${sm} {
+    margin-bottom: ${() => usePx(20)};
+  }
+`
 
 export const Link = styled.a`
   text-decoration: underline;
@@ -33,5 +31,14 @@ export const Caption = styled.p`
   ${sm} {
     margin-bottom: ${() => usePx(0)};
     font-size: ${() => usePx(14)};
+  }
+`
+
+export const Number = styled.span`
+  font-size: ${() => usePx(16)};
+  line-height: 1.125;
+  letter-spacing: -0.03em;
+  ${sm} {
+    font-size: ${() => usePx(12)};
   }
 `

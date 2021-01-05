@@ -4,9 +4,12 @@ const AppContext = createContext({
   showColors: false,
   setShowColors: null,
 
+  isMobile: null,
+  setIsMobile: null,
+
   // state: "intro",
   // setState: null,
-  
+
   // menuOpened: false,
   // setMenuOpened: null,
 

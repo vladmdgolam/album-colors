@@ -5,9 +5,10 @@
   --mpx: 100vw / 375;
   --transition: 0.1s ease-in-out;
   --transition-slow: 0.3s ease-in-out;
-  --text-color: #303030;
-  --bg-color: #fbfaef;
-  /* --bg-color: #fff; */
+  --text-color: #fbfaef;
+  --bg-color: #ee4621;
+  /* --text-color: #303030;
+  --bg-color: #fbfaef; */
   --mob: 899.999px;
   --gradient: linear-gradient(
       217deg,
@@ -38,7 +39,7 @@ body {
   font-family: Times, "Times New Roman", serif, -apple-system,
     BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue;
-  padding: calc(var(--px) * 30) calc(var(--px) * 20);
+  padding: calc(var(--px) * 30) calc(var(--px) * 20) 0;
   background: var(--bg-color);
   color: var(--text-color);
 }
@@ -58,9 +59,10 @@ h6 {
 
 h1 {
   font-size: calc(var(--px) * 105);
-  line-height: 0.95;
+  /* line-height: 0.95; */
   transform: scaleY(1.75);
-  line-height: 1.75;
+  /* line-height: 1.75; */
+  line-height: 1.35;
   /* transform-origin: 0% 0%; */
 }
 h2 {
@@ -74,7 +76,7 @@ h3 {
 
 @media screen and (max-width: 899.999px) {
   body {
-    padding: calc(var(--mpx) * 30) calc(var(--mpx) * 20);
+    padding: calc(var(--mpx) * 20) calc(var(--mpx) * 20) 0;
   }
   h1 {
     font-size: calc(var(--mpx) * 27);
@@ -91,6 +93,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -105,10 +110,6 @@ a {
 
 p {
   margin-top: 0;
-}
-
-header {
-  margin-bottom: calc(var(--px) * 150);
 }
 
 footer {
