@@ -67,6 +67,9 @@ const Container = styled.div`
   }
 `
 const Wrapper = styled.a`
+  &:hover {
+    text-decoration: none;
+  }
   display: flex;
   flex-direction: column;
   height: 100%;
