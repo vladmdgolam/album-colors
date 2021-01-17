@@ -1,32 +1,24 @@
 import { useState } from "react"
-import Head from "next/head"
 import Color from "color-thief-react"
 
-import CardList from "@/components/cardList"
+import CardList from "@/components/card-list"
 
 import Sources from "@/components/sources"
 import Header from "@/components/header"
+import Head from "@/components/head"
 import Footer from "@/components/footer"
+// import { Container } from "@/components/layout"
 import Winners from "@/components/winners"
 import MagicButton from "@/components/magick-button"
 import { YMInitializer } from "react-yandex-metrika"
 
-// import ColorDownloader from "@/components/colorsDownloader"
-
 export default function Home() {
   return (
-    <div>
+    <>
       <YMInitializer accounts={[70926418]} />
 
-      <Head>
-        <title>Цвета Альбомов</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple.png" />
-        <link rel="manifest" href="/manifest.webmanifest" />
-      </Head>
-
-      {/* <ColorDownloader /> */}
+      <Head />
+      {/* <Container> */}
       <Header />
       <MagicButton />
       <CardList />
@@ -35,6 +27,7 @@ export default function Home() {
       <Sources />
 
       <Footer />
-    </div>
+      {/* </Container> */}
+    </>
   )
 }

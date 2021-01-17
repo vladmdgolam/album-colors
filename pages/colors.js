@@ -18,15 +18,23 @@ const Container = styled.div`
 const Wrapper = styled.a`
   display: flex;
   flex-direction: column;
+  width: 100%;
   img {
     width: 100%;
     height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
   }
 `
 
 const Color = styled.div`
   background-color: ${({ color }) => color};
   display: flex;
+  position: relative;
+  padding-bottom: 100%;
 `
 
 const Img = styled.img`
