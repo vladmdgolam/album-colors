@@ -13,17 +13,19 @@ const Head = ({
       <link rel="apple-touch-icon" href="/apple.png" />
       <link rel="manifest" href="/manifest.webmanifest" />
 
-      <meta name="og:title" content={title} />
-      <meta name="og:url" content="album-colors.ru" />
+      <meta property="og:title" content={title} />
+      <meta property="og:url" content="album-colors.ru" />
+      <meta rel="canonical" content="album-colors.ru" />
 
       <meta name="description" content={description} />
-      <meta name="og:description" content={description} />
+      <meta property="og:description" content={description} />
 
       <meta name="apple-mobile-web-app-title" content={title} />
       <meta name="twitter:site" content="@vladmdgolam" />
       <meta name="author" content="Vlad Md, Katya Do" />
 
       <meta property="og:site_name" content={title} />
+      <meta property="og:type" content="website" />
 
       <meta property="og:image" content="/og.png" />
 
