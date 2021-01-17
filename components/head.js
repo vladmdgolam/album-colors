@@ -24,6 +24,9 @@ const Head = ({
       <meta name="twitter:site" content="@vladmdgolam" />
       <meta name="author" content="Vlad Md, Katya Do" />
 
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="627" />
+
       <meta property="og:site_name" content={title} />
       <meta property="og:type" content="website" />
 
