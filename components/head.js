@@ -2,7 +2,7 @@ import NextHead from "next/head"
 
 const Head = ({
   title = "Цвета Альбомов",
-  description = "Коллекция из 150 обложек альбомов и синглов 2020 года, вышедших в России и СНГ",
+  description = "Коллекция 150 обложек 2020 года, вышедших в России и СНГ",
   children,
 }) => {
   return (
@@ -27,7 +27,7 @@ const Head = ({
       <meta property="og:site_name" content={title} />
       <meta property="og:type" content="website" />
 
-      <meta property="og:image" content="/og.png" />
+      <meta property="og:image" content="https://album-colors.ru/og.png" />
 
       <meta name="theme-color" content="#ee4621" />
 
