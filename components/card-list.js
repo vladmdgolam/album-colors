@@ -23,11 +23,11 @@ const Grid = styled.div`
 `
 
 const CardList = () => {
-  const randomSongId = data[Math.floor(Math.random() * data.length)]
-  const randomSong = data.filter((el) => el.id === randomSongId.id)
   const [featuredSong, setFeaturedSong] = useState(null)
   // const selectedCovers = selected.selected
   useEffect(() => {
+    const randomSongId = data[Math.floor(Math.random() * data.length)]
+    const randomSong = data.filter((el) => el.id === randomSongId.id)
     setFeaturedSong(randomSong)
   }, [])
   return (
