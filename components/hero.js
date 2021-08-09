@@ -49,7 +49,7 @@ const CircleContainer = styled.div`
 
 const Cover = styled.a`
   position: relative;
-  width: 70%;
+  width: 60%;
   flex-shrink: 0;
   margin: 0 ${() => usePx(40)};
   background-color: ${(props) => props.hexadecimal};
@@ -178,7 +178,7 @@ const InspirationContent = styled.div`
   position: relative;
   flex-basis: 15%;
   align-self: flex-start;
-  margin-top: 15%;
+  margin-top: 20%;
   ${sm} {
     margin-top: 0;
   }
@@ -207,7 +207,7 @@ const AuthorsContent = styled.div`
   /* flex-grow: 0; */
   /* right: 0; */
   align-self: flex-end;
-  margin-bottom: 15%;
+  margin-bottom: 20%;
   /* overflow: visible;
   position: relative;
   transform-origin: 0% 100%;
